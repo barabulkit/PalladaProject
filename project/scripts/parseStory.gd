@@ -12,15 +12,15 @@ func _ready():
 	load_story()
 	
 	print(data.passages[0].text)
-	mainStoryLabel = get_node("MainStoryText")
-	mainStoryLabel.text = data.passages[currentPassage].text
+	mainStoryLabel = get_node("ScrollContainer2/MainStoryText")
+	mainStoryLabel.text = data.passages[currentPassage].text.split("[")[0]
 	
 	container = get_node("ScrollContainer/VBoxContainer")
 	process_links()
 
 func load_story():
 	var data_file = File.new()
-	if data_file.open("res://data/pallada.json", File.READ) != OK:
+	if data_file.open("res://data/PalladaProject.json", File.READ) != OK:
 		return
 	var data_text = data_file.get_as_text()
 	data_file.close()
@@ -41,7 +41,7 @@ func process_links():
 			textLable.connect("mouse_exited", textLable, "_on_Mouse_exited")
 			var linkPassage = find_by_pid(link.pid)
 			textLable.connect("gui_input", self, "_on_Gui", [linkPassage])
-			textLable.text = linkPassage.text
+			textLable.text = linkPassage.name
 			container.add_child(textLable)
 		
 
@@ -55,7 +55,7 @@ func find_by_pid(pid):
 func _on_Gui(event, linkPassage):
 	if (event is InputEventMouseButton && event.pressed && event.button_index == 1):
 		currentPassage = int(linkPassage.links[0].pid) - 1
-		mainStoryLabel.text = data.passages[currentPassage].text
+		mainStoryLabel.text = data.passages[currentPassage].text.split("[")[0]
 		for child in container.get_children():
 			container.remove_child(child)
 			child.queue_free()
