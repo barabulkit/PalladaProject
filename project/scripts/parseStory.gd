@@ -54,7 +54,7 @@ func find_by_pid(pid):
 	
 func _on_Gui(event, linkPassage):
 	if (event is InputEventMouseButton && event.pressed && event.button_index == 1):
-		currentPassage = int(linkPassage.links[0].pid) - 1
+		currentPassage = int(linkPassage.pid) - 1
 		mainStoryLabel.text = data.passages[currentPassage].text.split("[")[0]
 		for child in container.get_children():
 			container.remove_child(child)
