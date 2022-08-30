@@ -1,9 +1,10 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://assets/ui.png" type="Texture" id=1]
 [ext_resource path="res://assets/settings.png" type="Texture" id=2]
 [ext_resource path="res://assets/exit.png" type="Texture" id=3]
 [ext_resource path="res://scripts/parseStory.gd" type="Script" id=4]
+[ext_resource path="res://scenes/Settings.tscn" type="PackedScene" id=5]
 [ext_resource path="res://scenes/RobotoLabel.tscn" type="PackedScene" id=6]
 
 [node name="PalladaProject" type="Control"]
@@ -67,5 +68,14 @@ anchor_bottom = 0.0
 margin_right = 609.0
 margin_bottom = 19.0
 
+[node name="Popup" parent="." instance=ExtResource( 5 )]
+margin_left = 62.0
+margin_top = 81.0
+margin_right = -62.0
+margin_bottom = -68.0
+
 [connection signal="gui_input" from="." to="." method="_on_PalladaProject_gui_input"]
+[connection signal="gui_input" from="SettingsButton" to="." method="_on_SettingsButton_gui_input"]
+[connection signal="pressed" from="SettingsButton" to="." method="_on_SettingsButton_pressed"]
 [connection signal="gui_input" from="ScrollContainer2" to="." method="_on_PalladaProject_gui_input"]
+[connection signal="speed_changed" from="Popup" to="." method="_on_Popup_speed_changed"]

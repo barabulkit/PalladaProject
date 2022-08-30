@@ -1,0 +1,58 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://scenes/RobotoLabel.tscn" type="PackedScene" id=1]
+[ext_resource path="res://assets/settings_borders2.png" type="Texture" id=2]
+[ext_resource path="res://scenes/Settings.gd" type="Script" id=3]
+[ext_resource path="res://assets/Roboto-Regular.ttf" type="DynamicFontData" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+font_data = ExtResource( 4 )
+
+[node name="Popup" type="Popup"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 3 )
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 2 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="HSlider" type="HSlider" parent="."]
+anchor_left = 0.253906
+anchor_top = 0.0833333
+anchor_right = 0.520088
+anchor_bottom = 0.134889
+min_value = 10.0
+step = 10.0
+value = 50.0
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Label" parent="." instance=ExtResource( 1 )]
+anchor_left = 0.0361328
+anchor_top = 0.09
+anchor_right = 0.25
+anchor_bottom = 0.158333
+margin_bottom = 0.0
+text = "Скорость прорисовки текста
+"
+
+[node name="Button" type="Button" parent="."]
+anchor_left = 0.701172
+anchor_top = 0.825
+anchor_right = 0.946182
+anchor_bottom = 0.924222
+custom_fonts/font = SubResource( 1 )
+text = "Принять"
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[connection signal="value_changed" from="HSlider" to="." method="_on_HSlider_value_changed"]
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]

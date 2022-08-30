@@ -14,6 +14,10 @@ config/name="PalladaProject"
 run/main_scene="res://scenes/MainUI.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+SettingsVars="*res://scripts/SettingsVars.gd"
+
 [gui]
 
 common/drop_mouse_on_gui_input_disabled=true

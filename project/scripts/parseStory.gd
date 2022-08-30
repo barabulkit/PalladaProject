@@ -1,6 +1,7 @@
 extends Node
 
 var mainStoryLabel
+var settingsPopup
 var robotoLabel = preload("res://scenes/RobotoLabel.tscn")
 var buttons : Array
 var data
@@ -9,17 +10,22 @@ var container
 var linkLabels : Array
 var currentLabel
 
+onready var settingsMenu = $Popup
+
 var text_draw_speed
+var settings_var
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	load_story()
 
 	mainStoryLabel = get_node("ScrollContainer2/MainStoryText")
-	set_mainstory_text()
 	
 	container = get_node("ScrollContainer/VBoxContainer")
 	process_links()
+	
+	settings_var = get_node("/root/SettingsVars")
+	set_mainstory_text()
 
 func load_story():
 	var data_file = File.new()
@@ -35,7 +41,7 @@ func load_story():
 func set_mainstory_text():
 	mainStoryLabel.text = data.passages[currentPassage].text.split("[")[0]
 	mainStoryLabel.percent_visible = 0
-	text_draw_speed = 50.0 / mainStoryLabel.text.length()
+	text_draw_speed = settings_var.draw_coef / mainStoryLabel.text.length()
 
 func process_links():
 	var passage = data.passages[currentPassage]
@@ -85,12 +91,12 @@ func process_draw_speed(delta):
 	if mainStoryLabel.percent_visible != 1:
 		mainStoryLabel.percent_visible += text_draw_speed * delta
 	if mainStoryLabel.percent_visible == 1:
-		text_draw_speed = 50.0 / linkLabels[currentLabel].text.length()
+		text_draw_speed = settings_var.draw_coef / linkLabels[currentLabel].text.length()
 	if mainStoryLabel.percent_visible == 1 and linkLabels[currentLabel].percent_visible != 1:
 		linkLabels[currentLabel].percent_visible += text_draw_speed * delta
 	if linkLabels[currentLabel].percent_visible == 1 and currentLabel != linkLabels.size() - 1:
 		currentLabel += 1
-		text_draw_speed = 50.0 / linkLabels[currentLabel].text.length()
+		text_draw_speed = settings_var.draw_coef / linkLabels[currentLabel].text.length()
 
 
 func _on_PalladaProject_gui_input(event):
@@ -102,3 +108,13 @@ func process_percent_visible():
 		mainStoryLabel.percent_visible = 1
 	else: 
 		linkLabels[currentLabel].percent_visible = 1
+	
+func _on_SettingsButton_pressed():
+	settingsMenu.popup_centered()
+
+func _on_Popup_speed_changed():
+	var length
+	if mainStoryLabel.percent_visible != 1:
+		 length =mainStoryLabel.text.length()
+	else: length = linkLabels[currentLabel].text.length()
+	text_draw_speed = settings_var.draw_coef / length
