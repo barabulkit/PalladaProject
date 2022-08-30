@@ -66,3 +66,6 @@ anchor_right = 0.0
 anchor_bottom = 0.0
 margin_right = 609.0
 margin_bottom = 19.0
+
+[connection signal="gui_input" from="." to="." method="_on_PalladaProject_gui_input"]
+[connection signal="gui_input" from="ScrollContainer2" to="." method="_on_PalladaProject_gui_input"]

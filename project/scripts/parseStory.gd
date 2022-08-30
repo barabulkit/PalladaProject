@@ -6,14 +6,17 @@ var buttons : Array
 var data
 var currentPassage = 0
 var container
+var linkLabels : Array
+var currentLabel
+
+var text_draw_speed
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	load_story()
-	
-	print(data.passages[0].text)
+
 	mainStoryLabel = get_node("ScrollContainer2/MainStoryText")
-	mainStoryLabel.text = data.passages[currentPassage].text.split("[")[0]
+	set_mainstory_text()
 	
 	container = get_node("ScrollContainer/VBoxContainer")
 	process_links()
@@ -29,20 +32,30 @@ func load_story():
 		return
 	data = data_parse.result
 
+func set_mainstory_text():
+	mainStoryLabel.text = data.passages[currentPassage].text.split("[")[0]
+	mainStoryLabel.percent_visible = 0
+	text_draw_speed = 50.0 / mainStoryLabel.text.length()
+
 func process_links():
 	var passage = data.passages[currentPassage]
+	linkLabels = []
 	if "links" in passage:
 		var links = data.passages[currentPassage].links
 		for link in links:
-			var textLable = robotoLabel.instance()
-			textLable.anchor_left = 0
-			textLable.anchor_right = 1
-			textLable.connect("mouse_entered", textLable, "_on_Mouse_entered")
-			textLable.connect("mouse_exited", textLable, "_on_Mouse_exited")
+			var textLabel = robotoLabel.instance()
+			textLabel.anchor_left = 0
+			textLabel.anchor_right = 1
+			textLabel.connect("mouse_entered", textLabel, "_on_Mouse_entered")
+			textLabel.connect("mouse_exited", textLabel, "_on_Mouse_exited")
 			var linkPassage = find_by_pid(link.pid)
-			textLable.connect("gui_input", self, "_on_Gui", [linkPassage])
-			textLable.text = linkPassage.name
-			container.add_child(textLable)
+			textLabel.connect("gui_input", self, "_on_Gui", [linkPassage])
+			textLabel.text = linkPassage.name
+			textLabel.percent_visible = 0
+			container.add_child(textLabel)
+			linkLabels.append(textLabel)
+		currentLabel = 0
+		
 		
 
 func find_by_pid(pid):
@@ -53,14 +66,39 @@ func find_by_pid(pid):
 	
 	
 func _on_Gui(event, linkPassage):
+	if linkLabels[linkLabels.size() - 1].percent_visible != 1:
+		return
 	if (event is InputEventMouseButton && event.pressed && event.button_index == 1):
 		currentPassage = int(linkPassage.pid) - 1
-		mainStoryLabel.text = data.passages[currentPassage].text.split("[")[0]
+		set_mainstory_text()
 		for child in container.get_children():
 			container.remove_child(child)
 			child.queue_free()
 		process_links()
 		
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
+func _process(delta):
+	process_draw_speed(delta)
+
+
+func process_draw_speed(delta):
+	if mainStoryLabel.percent_visible != 1:
+		mainStoryLabel.percent_visible += text_draw_speed * delta
+	if mainStoryLabel.percent_visible == 1:
+		text_draw_speed = 50.0 / linkLabels[currentLabel].text.length()
+	if mainStoryLabel.percent_visible == 1 and linkLabels[currentLabel].percent_visible != 1:
+		linkLabels[currentLabel].percent_visible += text_draw_speed * delta
+	if linkLabels[currentLabel].percent_visible == 1 and currentLabel != linkLabels.size() - 1:
+		currentLabel += 1
+		text_draw_speed = 50.0 / linkLabels[currentLabel].text.length()
+
+
+func _on_PalladaProject_gui_input(event):
+	if (event is InputEventMouseButton && event.pressed && event.button_index == 1):
+		process_percent_visible()
+		
+func process_percent_visible():
+	if mainStoryLabel.percent_visible != 1:
+		mainStoryLabel.percent_visible = 1
+	else: 
+		linkLabels[currentLabel].percent_visible = 1
