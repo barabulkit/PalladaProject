@@ -18,7 +18,7 @@ var settings_var
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	load_story()
+	load_story("res://data/PalladaProject.json")
 
 	mainStoryLabel = get_node("ScrollContainer2/MainStoryText")
 	
@@ -28,9 +28,9 @@ func _ready():
 	settings_var = get_node("/root/SettingsVars")
 	set_mainstory_text()
 
-func load_story():
+func load_story(filename):
 	var data_file = File.new()
-	if data_file.open("res://data/PalladaProject.json", File.READ) != OK:
+	if data_file.open(filename, File.READ) != OK:
 		return
 	var data_text = data_file.get_as_text()
 	data_file.close()
@@ -99,9 +99,7 @@ func _on_Gui(event, linkPassage):
 			conditions.append(linkPassage.trigger)
 		currentPassage = int(linkPassage.pid) - 1
 		set_mainstory_text()
-		for child in container.get_children():
-			container.remove_child(child)
-			child.queue_free()
+		clear_links()
 		process_links()
 		
 # Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -141,3 +139,18 @@ func _on_Popup_speed_changed():
 		 length =mainStoryLabel.text.length()
 	else: length = linkLabels[currentLabel].text.length()
 	text_draw_speed = settings_var.draw_coef / length
+
+func clear_links():
+	for child in container.get_children():
+			container.remove_child(child)
+			child.queue_free()
+
+func _on_Popup_language_changed():
+	if(settings_var.language == "English"):
+		load_story("res://data/PalladaProject_eng.json")
+	else:
+		load_story("res://data/PalladaProject.json")
+	clear_links()
+	process_links()
+	set_mainstory_text()
+	pass # Replace with function body.

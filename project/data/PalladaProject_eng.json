@@ -1,0 +1,1348 @@
+{
+  "passages": [
+    {
+      "text": "New York, 203X, July 4th evening\n\nThe road to the international airport named after John F. Kennedy was quite congested this evening. The dark silver Ford I was driving was making its way towards Terminal D.\n\nI moved my gaze to Michael. He was sitting in the next seat and reading some documents on the tablet.\n\nMichael... I wasn't sure if that was his real name. These Government guys adore shadow.\n\nAfter a few seconds, he noticed my gaze and barely smiled:\n\n- What? Don’t you think about how to get out of the car until it comes to land?\n\n[[Fuck you, Michael. Your office owes me a couple of zeros in the contract..]]\n[[Of course I don't mind, but I can't do it, right?]] \n[[Work’s work. Although I don't really like being kicked out of the conference. I really wanted to learn something new about this modern AI model.]] ",
+      "links": [
+        {
+          "name": "Fuck you, Michael. Your office owes me a couple of zeros in the contract..",
+          "link": "Fuck you, Michael. Your office owes me a couple of zeros in the contract..",
+          "pid": "2"
+        },
+        {
+          "name": "Of course I don't mind, but I can't do it, right?",
+          "link": "Of course I don't mind, but I can't do it, right?",
+          "pid": "3"
+        },
+        {
+          "name": "Work’s work. Although I don't really like being kicked out of the conference. I really wanted to learn something new about this modern AI model.",
+          "link": "Work’s work. Although I don't really like being kicked out of the conference. I really wanted to learn something new about this modern AI model.",
+          "pid": "4"
+        }
+      ],
+      "name": "Начало",
+      "pid": "1",
+      "position": {
+        "x": "600",
+        "y": "300"
+      },
+      "tags": [
+        "Phase1",
+        "MainLine"
+      ]
+    },
+    {
+      "text": "Michael laughed.\n\n- I like your spirit, I'll talk about it with my boss. Maybe if you complete this task, you can add three more.\n\nHe made a thoughtful face for a second, and then looked at me:\n\n- Speaking of the task, have you already read the briefing?\n\n[[In general terms.Is it something about CAR Corporation?]] \n[[No, I didn't have any time. So you have ten minutes before we get there.]] ",
+      "links": [
+        {
+          "name": "In general terms.Is it something about CAR Corporation?",
+          "link": "In general terms.Is it something about CAR Corporation?",
+          "pid": "5"
+        },
+        {
+          "name": "No, I didn't have any time. So you have ten minutes before we get there.",
+          "link": "No, I didn't have any time. So you have ten minutes before we get there.",
+          "pid": "6"
+        }
+      ],
+      "name": "Fuck you, Michael. Your office owes me a couple of zeros in the contract..",
+      "pid": "2",
+      "position": {
+        "x": "725",
+        "y": "300"
+      }
+    },
+    {
+      "text": "Michael chuckled.\n\n-Of course not. In addition, we have already bought a ticket to Athens.  It would be a shame if you suddenly don’t go and waste taxpayers' money. \n\n- Speaking of Athens, have you already read the briefing?\n\n[[In general terms.Is it something about CAR Corporation?]] \n[[No, I didn't have any time. So you have ten minutes before we get there.]] ",
+      "links": [
+        {
+          "name": "In general terms.Is it something about CAR Corporation?",
+          "link": "In general terms.Is it something about CAR Corporation?",
+          "pid": "5"
+        },
+        {
+          "name": "No, I didn't have any time. So you have ten minutes before we get there.",
+          "link": "No, I didn't have any time. So you have ten minutes before we get there.",
+          "pid": "6"
+        }
+      ],
+      "name": "Of course I don't mind, but I can't do it, right?",
+      "pid": "3",
+      "position": {
+        "x": "725",
+        "y": "400"
+      }
+    },
+    {
+      "text": "- Totally hard at work, right? Don't worry, you're not being asked to do anything outside of your job, are you?\n\nThere was nothing to object. I worked on AI and neural interfaces. Our team of scientists was looking for a way to train a machine using the knowledge of a living brain. If it works, the process of creating and learning would be accelerated at times.\n\nMichael interpreted my silence right and chuckled.\n\n- Speaking of business, have you already read the briefing?\n\n[[In general terms.Is it something about CAR Corporation?]] \n[[No, I didn't have any time. So you have ten minutes before we get there.]] ",
+      "links": [
+        {
+          "name": "In general terms.Is it something about CAR Corporation?",
+          "link": "In general terms.Is it something about CAR Corporation?",
+          "pid": "5"
+        },
+        {
+          "name": "No, I didn't have any time. So you have ten minutes before we get there.",
+          "link": "No, I didn't have any time. So you have ten minutes before we get there.",
+          "pid": "6"
+        }
+      ],
+      "name": "Work’s work. Although I don't really like being kicked out of the conference. I really wanted to learn something new about this modern AI model.",
+      "pid": "4",
+      "position": {
+        "x": "725",
+        "y": "200"
+      }
+    },
+    {
+      "text": "- Heeell yeah. They work outside of our jurisdiction, so they are not afraid of anything. As it is now.\n\nSaying that, Michael handed me a tablet.\n\n[[Take the tablet from Michael's hands]] ",
+      "links": [
+        {
+          "name": "Take the tablet from Michael's hands",
+          "link": "Take the tablet from Michael's hands",
+          "pid": "7"
+        }
+      ],
+      "name": "In general terms.Is it something about CAR Corporation?",
+      "pid": "5",
+      "position": {
+        "x": "850",
+        "y": "250"
+      }
+    },
+    {
+      "text": "- Okay, it will not be easy, but I'll guide you through the basics.\n\nMichael handed me the tablet he has just been reading.\n\n[[Take the tablet from Michael's hands]] ",
+      "links": [
+        {
+          "name": "Take the tablet from Michael's hands",
+          "link": "Take the tablet from Michael's hands",
+          "pid": "7"
+        }
+      ],
+      "name": "No, I didn't have any time. So you have ten minutes before we get there.",
+      "pid": "6",
+      "position": {
+        "x": "850",
+        "y": "350"
+      }
+    },
+    {
+      "text": "Michael cleared his throat slightly.\n\n- So, CAR corporation. It is engaged in any-purpose AI development. For any client. The Agency has been following one of their development teams based in Athens for the second year.\n\nHe flipped the page to the right, and a photo of a three-story building appeared on the screen. Apparently, it stood somewhere in the suburbs, and not too far from the sea.\n\n- This is the main building. The office of developers, neurolabs and a small factory for manufacturing prototypes of devices for connecting with the brain and controlling technology through thought. And that's where I got you the invitation to. One of the directions of their development is the creation of online games, with the \"Creator\" system, you have probably heard at least once. AI creates and fills the world almost only by itself, and changes it when necessary.\n\n\n[[Why Athens?]] \n[[So what? All I have to do is to complete another such game?]] ",
+      "links": [
+        {
+          "name": "Why Athens?",
+          "link": "Why Athens?",
+          "pid": "8"
+        },
+        {
+          "name": "So what? All I have to do is to complete another such game?",
+          "link": "So what? All I have to do is to complete another such game?",
+          "pid": "9"
+        }
+      ],
+      "name": "Take the tablet from Michael's hands",
+      "pid": "7",
+      "position": {
+        "x": "975",
+        "y": "300"
+      }
+    },
+    {
+      "text": "- Good question. In Langley they assume that CAR's investment in the country's economy is just a well-disguised bribe. And the government just turns a blind eye to what is going on under their noses. We tried to make official requests to Greek intelligence, but received little information.\n\nMichael leaned back in his chair.\n\n- You are invited to the closed beta testing of their neurohelmet game. There will be ten testers, and as far as I know, they will be the best of the best.\n\n[[So what? All I have to do is to complete another such game?]] ",
+      "links": [
+        {
+          "name": "So what? All I have to do is to complete another such game?",
+          "link": "So what? All I have to do is to complete another such game?",
+          "pid": "9"
+        }
+      ],
+      "name": "Why Athens?",
+      "pid": "8",
+      "position": {
+        "x": "1100",
+        "y": "250"
+      }
+    },
+    {
+      "text": "You think Langley is full of idiots?  AI is not always harmless, you know. And we have suspicions.\n\nMichael raised his finger.\n\n- Suspicions... That their \"Game\"  is just an intermediate or auxiliary project within a larger project.\n\n[[I looked through the next page: \"The Pallada Project?\"]] ",
+      "links": [
+        {
+          "name": "I looked through the next page: \"The Pallada Project?\"",
+          "link": "I looked through the next page: \"The Pallada Project?\"",
+          "pid": "10"
+        }
+      ],
+      "name": "So what? All I have to do is to complete another such game?",
+      "pid": "9",
+      "position": {
+        "x": "1100",
+        "y": "375"
+      }
+    },
+    {
+      "text": "- Bingo.\n\nMichael crossed his arms.\n\n- There is not much information about the project. We could only find a few money transfers to the Athens branch with this comment. No information about the project, nor what it is intended for. And Uncle Sam doesn't like being kept from.\n\nWe were turning into the parking lot:\n\n- In general, your task is to come to Athens, take part in testing, find out what they are actually developing, and report to us. Then  the task force will take matters into their  hands. It is now in Glyfada, which is about twenty minutes from Athens by car… And just in case of emergency...\n\nHe gave me a business card:\n\n- Call this number. Use a payphone please, if possible. They will evacuate you from the peninsula. But this is for  the worst-case scenario only. We need to find out what's going on there. If we have evidence that they are doing something wrong, we can put a lot of pressure on them and on their customer, whoever it is.\n\nThe car stopped and the driver turned off the engine. I looked at my watch. There were ten minutes left before check-in started.\n\n- If you have any questions, ask now. You'll be on your own for the next couple of weeks.\n\n[[Известно что-нибудь о других тестировщиках?]] \n[[How do I contact you if there is something urgent?]] \n[[I'm not an agent, you know. What if shooting starts there?]] \n[[About evidence. What exactly should I look for?]] \n[[No more questions]] ",
+      "links": [
+        {
+          "name": "Известно что-нибудь о других тестировщиках?",
+          "link": "Известно что-нибудь о других тестировщиках?",
+          "pid": "11"
+        },
+        {
+          "name": "How do I contact you if there is something urgent?",
+          "link": "How do I contact you if there is something urgent?",
+          "pid": "12"
+        },
+        {
+          "name": "I'm not an agent, you know. What if shooting starts there?",
+          "link": "I'm not an agent, you know. What if shooting starts there?",
+          "pid": "13"
+        },
+        {
+          "name": "About evidence. What exactly should I look for?",
+          "link": "About evidence. What exactly should I look for?",
+          "pid": "14"
+        },
+        {
+          "name": "No more questions",
+          "link": "No more questions",
+          "pid": "15"
+        }
+      ],
+      "name": "I looked through the next page: \"The Pallada Project?\"",
+      "pid": "10",
+      "position": {
+        "x": "1225",
+        "y": "300"
+      }
+    },
+    {
+      "text": "- We know two more, they left San Francisco two days ago. Lindsey and Andrew Doubleday. Have you heard about them?\n\n[[Yes, I remember something. AI to track fires in South America?]] ",
+      "links": [
+        {
+          "name": "Yes, I remember something. AI to track fires in South America?",
+          "link": "Yes, I remember something. AI to track fires in South America?",
+          "pid": "16"
+        }
+      ],
+      "name": "Известно что-нибудь о других тестировщиках?",
+      "pid": "11",
+      "position": {
+        "x": "1350",
+        "y": "200"
+      }
+    },
+    {
+      "text": "- No way. I told you, you'll be on your own. In the most extreme case, call us, we will get you out. We never leave a man behind, remember?\n\nBut you really need to find out what's really going on, so don't call just because you're scared.\n\n[[Известно что-нибудь о других тестировщиках?]] \n[[I'm not an agent, you know. What if shooting starts there?]] \n[[About evidence. What exactly should I look for?]] \n[[No more questions]] ",
+      "links": [
+        {
+          "name": "Известно что-нибудь о других тестировщиках?",
+          "link": "Известно что-нибудь о других тестировщиках?",
+          "pid": "11"
+        },
+        {
+          "name": "I'm not an agent, you know. What if shooting starts there?",
+          "link": "I'm not an agent, you know. What if shooting starts there?",
+          "pid": "13"
+        },
+        {
+          "name": "About evidence. What exactly should I look for?",
+          "link": "About evidence. What exactly should I look for?",
+          "pid": "14"
+        },
+        {
+          "name": "No more questions",
+          "link": "No more questions",
+          "pid": "15"
+        }
+      ],
+      "name": "How do I contact you if there is something urgent?",
+      "pid": "12",
+      "position": {
+        "x": "1350",
+        "y": "300"
+      }
+    },
+    {
+      "text": "- It won't. We've been watching this place for quite some time, and there's no sign of strong security. Unless, of course, you consider guards with tasers a life threat.\n\n[[Известно что-нибудь о других тестировщиках?]] \n[[How do I contact you if there is something urgent?]] \n[[About evidence. What exactly should I look for?]] \n[[No more questions]] ",
+      "links": [
+        {
+          "name": "Известно что-нибудь о других тестировщиках?",
+          "link": "Известно что-нибудь о других тестировщиках?",
+          "pid": "11"
+        },
+        {
+          "name": "How do I contact you if there is something urgent?",
+          "link": "How do I contact you if there is something urgent?",
+          "pid": "12"
+        },
+        {
+          "name": "About evidence. What exactly should I look for?",
+          "link": "About evidence. What exactly should I look for?",
+          "pid": "14"
+        },
+        {
+          "name": "No more questions",
+          "link": "No more questions",
+          "pid": "15"
+        }
+      ],
+      "name": "I'm not an agent, you know. What if shooting starts there?",
+      "pid": "13",
+      "position": {
+        "x": "1350",
+        "y": "400"
+      }
+    },
+    {
+      "text": "- Anything. Documents, files. data archives, access to servers, accounting information. If you're a hacker, you can even steal this Pallada project, whatever it is, and bring it to us. I might even get you some medal for this. Of course, you won’t be able to brag about that, you know.\n\nMichael chuckled\n\n- So, the more dirt on the CAR, the better. If you get something valuable, then we will reimburse the risks, but it’s better not to shove your head into a meat grinder on purpose.\n\n[[Известно что-нибудь о других тестировщиках?]] \n[[How do I contact you if there is something urgent?]] \n[[I'm not an agent, you know. What if shooting starts there?]] \n[[No more questions]] ",
+      "links": [
+        {
+          "name": "Известно что-нибудь о других тестировщиках?",
+          "link": "Известно что-нибудь о других тестировщиках?",
+          "pid": "11"
+        },
+        {
+          "name": "How do I contact you if there is something urgent?",
+          "link": "How do I contact you if there is something urgent?",
+          "pid": "12"
+        },
+        {
+          "name": "I'm not an agent, you know. What if shooting starts there?",
+          "link": "I'm not an agent, you know. What if shooting starts there?",
+          "pid": "13"
+        },
+        {
+          "name": "No more questions",
+          "link": "No more questions",
+          "pid": "15"
+        }
+      ],
+      "name": "About evidence. What exactly should I look for?",
+      "pid": "14",
+      "position": {
+        "x": "1350",
+        "y": "500"
+      }
+    },
+    {
+      "text": "- That’s good.\n\nHe gave me an envelope with two tickets and three thousand dollars in it.\n\n- I suppose your salary isn’t that bad already, but it's always nice to have vacation pay, right?\n\nI took the envelope and automatically  counted the money. Michael chuckled.\n\n-Recounted five times. No need to return, consider it a small gift from me.\n\n[[I looked at Michael, and then at the terminal. On the scoreboard it’s said that the check-in for New York - Athens flight has already begun. \"Well, thanks. Looks like I have to go.\"]] ",
+      "links": [
+        {
+          "name": "I looked at Michael, and then at the terminal. On the scoreboard it’s said that the check-in for New York - Athens flight has already begun. \"Well, thanks. Looks like I have to go.\"",
+          "link": "I looked at Michael, and then at the terminal. On the scoreboard it’s said that the check-in for New York - Athens flight has already begun. \"Well, thanks. Looks like I have to go.\"",
+          "pid": "17"
+        }
+      ],
+      "name": "No more questions",
+      "pid": "15",
+      "position": {
+        "x": "1550",
+        "y": "300"
+      }
+    },
+    {
+      "text": "- They are the best. Genius couple. We checked them, they have recently dealt with the glacier melting rate problem. So, we believe  they are not your enemies. It's not even a fact that they know what kind of game is going on there, so keep your mouth shut.\n\nMichael reached out and swiped a couple of times over the screen, showing a dossier on some terribly shaggy man with glasses.\n\n- And this is Nakamoto Ishigami. He's an operative sent by Japanese intelligence. He's technically an ally, but it all depends on what you will find out. So you better keep your distance. Recently, Japan is clearly not averse to changing the current status Quo with the States.\n\n[[How do I contact you if there is something urgent?]] \n[[I'm not an agent, you know. What if shooting starts there?]] \n[[About evidence. What exactly should I look for?]] \n[[No more questions]] ",
+      "links": [
+        {
+          "name": "How do I contact you if there is something urgent?",
+          "link": "How do I contact you if there is something urgent?",
+          "pid": "12"
+        },
+        {
+          "name": "I'm not an agent, you know. What if shooting starts there?",
+          "link": "I'm not an agent, you know. What if shooting starts there?",
+          "pid": "13"
+        },
+        {
+          "name": "About evidence. What exactly should I look for?",
+          "link": "About evidence. What exactly should I look for?",
+          "pid": "14"
+        },
+        {
+          "name": "No more questions",
+          "link": "No more questions",
+          "pid": "15"
+        }
+      ],
+      "name": "Yes, I remember something. AI to track fires in South America?",
+      "pid": "16",
+      "position": {
+        "x": "1550",
+        "y": "150"
+      }
+    },
+    {
+      "text": "- Looks like you do. Good luck and see you in a week!\n\nHe gave me an almost friendly pat on the shoulder and then I got out of the car. The driver immediately started the engine and pulled out of the parking lot. I was left alone with my task.\n\n[[Go to the check-in counter]] ",
+      "links": [
+        {
+          "name": "Go to the check-in counter",
+          "link": "Go to the check-in counter",
+          "pid": "18"
+        }
+      ],
+      "name": "I looked at Michael, and then at the terminal. On the scoreboard it’s said that the check-in for New York - Athens flight has already begun. \"Well, thanks. Looks like I have to go.\"",
+      "pid": "17",
+      "position": {
+        "x": "1675",
+        "y": "300"
+      }
+    },
+    {
+      "text": "It was quite crowded, and the feeling of an envelope in my pocket did not add confidence at all. While traveling, it is somewhat unreasonable to keep such an amount in cash.\n\nI hope there is an ATM in Athens...\n\n[[Give ticket and passport]] ",
+      "links": [
+        {
+          "name": "Give ticket and passport",
+          "link": "Give ticket and passport",
+          "pid": "19"
+        }
+      ],
+      "name": "Go to the check-in counter",
+      "pid": "18",
+      "position": {
+        "x": "1800",
+        "y": "300"
+      }
+    },
+    {
+      "text": "Standard procedure, passport check, stub torn-off, \"Have a nice flight, Mr. Runner!\", and then  the plane's airstairs.\n\nI had only left the States a couple of times before that, at the request of the Agency, and then, these were more like on-the-spot consultations for real agents. They did the main work.\n\nPrague, Moscow, Dubai. The latter I would not even mind visiting again outside of work but there was no time yet. That time, I had  to analyze the copy of the AI made by the group... Saber, I think?\n\n[[Take your seat by the window and buckle up]] ",
+      "links": [
+        {
+          "name": "Take your seat by the window and buckle up",
+          "link": "Take your seat by the window and buckle up",
+          "pid": "20"
+        }
+      ],
+      "name": "Give ticket and passport",
+      "pid": "19",
+      "position": {
+        "x": "1925",
+        "y": "300"
+      }
+    },
+    {
+      "text": "I chuckled.\n\nThen it was AI for the air defense system. Very advanced, by the way. They didn’t give it a test, but it seems that it could determine the angular velocity from the silhouette at a distance of 50 kilometers with an accuracy of a quarter of an arcminute...\n\nThoughts were interrupted by a slight gravity loss. The new model of Airtrain planes automatically extinguished all overloads\n\nNew York, the city that never sleeps, was shining with all its bright lights. Fireworks were heard somewhere, Independence Day was in full swing. Holiday picture.\n\nThe plane, meanwhile, reached cruising speed, and leveled off, quietly humming its engines in the wings.\n\nIt is still six hours to Athens, I  need to get some sleep...\n\n[[Recline the chair and close eyes]] ",
+      "links": [
+        {
+          "name": "Recline the chair and close eyes",
+          "link": "Recline the chair and close eyes",
+          "pid": "21"
+        }
+      ],
+      "name": "Take your seat by the window and buckle up",
+      "pid": "20",
+      "position": {
+        "x": "2050",
+        "y": "300"
+      }
+    },
+    {
+      "text": "Tomorrow is the start of a busy week...\n\n[[Nova Graecia...]] ",
+      "links": [
+        {
+          "name": "Nova Graecia...",
+          "link": "Nova Graecia...",
+          "pid": "22"
+        }
+      ],
+      "name": "Recline the chair and close eyes",
+      "pid": "21",
+      "position": {
+        "x": "2175",
+        "y": "300"
+      }
+    },
+    {
+      "text": "By the time the plane began to land, it was already a hot afternoon in Athens. I had ordered a large americano with sugar.\n\nFrom a height, the city, even in such an era, seemed to be something very old, historical. There were no usual skyscrapers, very often there were two or three-story buildings, strangely curved streets, and in some places – ruins. Certainly some historical value.\n\nBy the time I finished my coffee, the plane had already touched down.\n\nMy head was  dizzy a little after an unusual place to sleep. Although compared to falling asleep right at the working table, it was much better.\n\nSoon our plane parked and immediately, a leisurely fuss with pushing and falling bags began.\n\n[[Leave the plane]] ",
+      "links": [
+        {
+          "name": "Leave the plane",
+          "link": "Leave the plane",
+          "pid": "23"
+        }
+      ],
+      "name": "Nova Graecia...",
+      "pid": "22",
+      "position": {
+        "x": "600",
+        "y": "800"
+      }
+    },
+    {
+      "text": "It seems to be at least eighty degrees outside. I should find a shade as soon as possible.\n\nPassport control again, a polite smile, and here I am in Greece. Amazing\n\n[[Найти банкомат]] \n[[Go to the airport exit]] \n[[Сесть в зоне ожидания и внимательно осмотреться{{meet}}]] ",
+      "links": [
+        {
+          "name": "Найти банкомат",
+          "link": "Найти банкомат",
+          "pid": "24"
+        },
+        {
+          "name": "Go to the airport exit",
+          "link": "Go to the airport exit",
+          "pid": "25"
+        },
+        {
+          "name": "Сесть в зоне ожидания и внимательно осмотреться{{meet}}",
+          "link": "Сесть в зоне ожидания и внимательно осмотреться{{meet}}",
+          "pid": "26"
+        }
+      ],
+      "name": "Leave the plane",
+      "pid": "23",
+      "position": {
+        "x": "725",
+        "y": "800"
+      }
+    },
+    {
+      "text": "Первая мысль в голове - ходить с наличкой опасно. Тем более в таком количестве. \n\nС этой мыслью я начал искать банкомат. Обычно они все стоят отдельной комнатой, и этот аэропорт не был исключением.\n\nПока машина уверенно считала наличку, я смотрел по сторонам, как неожиданно ко мне подошел человек арабской внешности и кудрявыми волосами.\n\n- Майлз Раннер, это Вы? \n\nЕго английский был довольно хорош, хоть и отдавал арабским акцентом.\n\n[[Возможно.  А вы?...]] \n[[Да, это я]] ",
+      "links": [
+        {
+          "name": "Возможно.  А вы?...",
+          "link": "Возможно.  А вы?...",
+          "pid": "27"
+        },
+        {
+          "name": "Да, это я",
+          "link": "Да, это я",
+          "pid": "28"
+        }
+      ],
+      "name": "Найти банкомат",
+      "pid": "24",
+      "position": {
+        "x": "850",
+        "y": "700"
+      }
+    },
+    {
+      "text": "At the exit, a taxi driver with a sign saying \"Miles Runner\" has already been waiting for me.\n\nI approached the driver, said hello, and in a few minutes we were already leaving the airport parking lot.\n\nThis area of the city was quite new, but its architecture was also based on some old history. Some roofs were even made of shingles.\n\nWe were heading to the Grand Electra Hotel, where the rest of the testers were supposed to gather. I looked at my watch. The meeting should be in the evening, after six. I think that's what the briefing said.\n\nWhile we were driving past one of the main streets, we noticed protesters on the right side. They were shouting something, but I didn’t speak Greek. The posters were eloquent. \"No to robots!\"\n\n- Is it always like this?\n\n- Every day - the taxi driver snorted. They are afraid that their jobs will be taken away. As if there is any good.\n\nI tactfully kept silent. It looks like even CAR can't fix some things.\n\n\n[[На въезде в отель.]] ",
+      "links": [
+        {
+          "name": "На въезде в отель.",
+          "link": "На въезде в отель.",
+          "pid": "30"
+        }
+      ],
+      "name": "Go to the airport exit",
+      "pid": "25",
+      "position": {
+        "x": "850",
+        "y": "900"
+      }
+    },
+    {
+      "text": "Но спешить совершенно некуда. Тем более, что мне нужно прийти в себя после полёта.\n\nСказано-сделано. Через десять минут я уже обедал в кафе в зоне ожидания. Цены оказались не такими кусачими.\n\nОладьи с орехами и мёдом интересное сочетание, я с удовольствием уплетал один за другим, наблюдая за проходящими мимо людьми. А дополнительный кофе прекрасно бодрил после перелёта.\n\nПока я обедал, прибывало всё больше народу, большинство столиков были заняты. Я уже прикончил половину своей порции, когда в зал кафе вошла девушка в светло-бежевом деловом костюме и короткими ярко-рыжимы волосами. \n\nОна тут же направилась к стойке, заказала большой кусок запеканки с большой кружкой травяного чая, и сделав заказ, отправилась искать свободное местечно. Пройдя полкруга по залу, она остановилась и слегка натянуто улыбнулась.\n\n- Простите. Не возражаете?..\n\nСильный русский акцент слегка резал слух, хотя и не так сильно, после Московских приключений. Я вежливо улыбнулся.\n\n[[Да, пожалуйста!]] ",
+      "links": [
+        {
+          "name": "Да, пожалуйста!",
+          "link": "Да, пожалуйста!",
+          "pid": "33"
+        }
+      ],
+      "name": "Сесть в зоне ожидания и внимательно осмотреться{{meet}}",
+      "pid": "26",
+      "position": {
+        "x": "700",
+        "y": "1000"
+      }
+    },
+    {
+      "text": "- Эндрю Дарвиш. Мы с Вами соревнуемся за большую порцию бакшиша, если понимаете о чем я?\n\nОн подмигнул. Понятия не имею, что такое бакшиш, но для вида я рассмеялся, и сделал свою лучшую улыбку\n\n- Ах да. Вы тестируете игры для нейрошлемов Kinteco V3, я прав?\n\n- Точно\n\nОн лукаво улыбнулся.\n\n- А вы вроде вчера выступали с докладом в Нью-Йорке\n\n- Ну да, едва успел на самолёт - с этими словами я позволил себе усмехнуться.\n\nЭтот араб был настроен дружелюбно, но зная их врожденную смекалку...\nЭтот разговор скорее торг, чем попытка подружиться.\n\n[[А Вы недавно прилетели?]] ",
+      "links": [
+        {
+          "name": "А Вы недавно прилетели?",
+          "link": "А Вы недавно прилетели?",
+          "pid": "29"
+        }
+      ],
+      "name": "Возможно.  А вы?...",
+      "pid": "27",
+      "position": {
+        "x": "1025",
+        "y": "675"
+      }
+    },
+    {
+      "text": "- Эндрю Дарвиш. Тестировщик. Меня пригласили CAR поучаствовать в тестировании.\n\nОн протянул руку и я как смог дружелюбно ее пожал. Значит, это один из моих соперников, как я правильно понял.\n\nЯ осмотрел его чуть внимательнее. Цепкие карие глаза, нос с горбинкой, широкая улыбка. И футболка с принтом игры десятилетней давности. Интересное сочетание\n\n[[А Вы недавно прилетели?]] ",
+      "links": [
+        {
+          "name": "А Вы недавно прилетели?",
+          "link": "А Вы недавно прилетели?",
+          "pid": "29"
+        }
+      ],
+      "name": "Да, это я",
+      "pid": "28",
+      "position": {
+        "x": "1025",
+        "y": "775"
+      }
+    },
+    {
+      "text": "- Буквально полчаса назад, рейсом из Абу-Даби\n\n- Вот как - хмыкнул я, и забрал карточку из банкомата.\n\nЭндрю осмотрелся по сторонам, а потом закинул на мои плечи руку\n\n- Слушайте, Вы ведь из Америки? Как Вы рассматриваете небольшое дельце?\n\n[[Слушаю...]] \n[[Убрать руку с плеча.]] ",
+      "links": [
+        {
+          "name": "Слушаю...",
+          "link": "Слушаю...",
+          "pid": "31"
+        },
+        {
+          "name": "Убрать руку с плеча.",
+          "link": "Убрать руку с плеча.",
+          "pid": "32"
+        }
+      ],
+      "name": "А Вы недавно прилетели?",
+      "pid": "29",
+      "position": {
+        "x": "1150",
+        "y": "725"
+      }
+    },
+    {
+      "text": "В холле было не так многолюдно, и по хорошему прохладно. Везде стоял идеальный порядок, CAR не поскупился на хорошие места для своих наёмных работников.\n\nЯ подошел к портье, указал, кто я такой, и уже через пару минут поехал вместе с ним на лифте на третий этаж\n\nПока мы шли к номеру, я осматривал коридор. Где-то тут должны были также поселиться остальные девять участников, но на этаже было тихо.\n\nПортье открыл мне дверь и передал ключи от номера:\n\n- Если что-то понадобится, позвоните, пожалуйста, по внутреннему номеру отеля. Кроме этого, мистер Раннер, мне передали, что Вы приглашены на ужин в нашем ресторане на втором этаже. Должны ли мы приготовить что-то особенное для Вас?\n\n- Эм.. Я думаю нет, единственное что ничего излишне острого\n\nПортье понимающе улыбнулся:\n\n- Как скажете. Мы будем ждать Вас вечером. Приятного отдыха!\n\nНомер был достаточно просторным, хоть и однокомнатным.\n\nСнаружи был прекрасный вид на море. Хотелось бы конечно искупаться, но вряд ли получится. А еще я до сих пор не знаю, с кем придется столкнуться ещё.\n\nС этой мыслью я упал на кровать и забылся некрепким сном под шум деревьев во дворе. Такая смена часовых поясов всегда сбивает с толку...\n\n[[Вечер того же дня. Ресторан отеля.]] ",
+      "links": [
+        {
+          "name": "Вечер того же дня. Ресторан отеля.",
+          "link": "Вечер того же дня. Ресторан отеля.",
+          "pid": "37"
+        }
+      ],
+      "name": "На въезде в отель.",
+      "pid": "30",
+      "position": {
+        "x": "975",
+        "y": "925"
+      }
+    },
+    {
+      "text": "-Тут такое дело, у меня знакомый работает в Афинах, и по его совету я участвую, а если смогу пройти тестирование, то меня могу пригласить в CAR. Смекаете?\n\nМистер Дарвиш чуть улыбнулся, и слегка кивнул, якобы понимая, к чему он клонит.\n\n-Я слушал Ваши выступления, и Вы мне показались настоящим профессионалом в вопросах работы ИИ. Значит и с этим тестированием Вы справитесь. А я в свою очередь знаю кое-какую внутреннюю кухню CAR. Знание вместе сила, правда ведь?\n\n[[И правда, наверное мы можем помочь друг другу...{{deal}}]] \n[[Мм.. Простите. Слишком неожиданный риск. Я бы не хотел давать ответ прямо сейчас.]] ",
+      "links": [
+        {
+          "name": "И правда, наверное мы можем помочь друг другу...{{deal}}",
+          "link": "И правда, наверное мы можем помочь друг другу...{{deal}}",
+          "pid": "34"
+        },
+        {
+          "name": "Мм.. Простите. Слишком неожиданный риск. Я бы не хотел давать ответ прямо сейчас.",
+          "link": "Мм.. Простите. Слишком неожиданный риск. Я бы не хотел давать ответ прямо сейчас.",
+          "pid": "35"
+        }
+      ],
+      "name": "Слушаю...",
+      "pid": "31",
+      "position": {
+        "x": "1300",
+        "y": "700"
+      }
+    },
+    {
+      "text": "- К сожалению, я приехал только чтобы протестировать игру. Ничего больше. Приключения мне не нужны.\n\nЯ снова улыбнулся, а мистер Дарвиш понимающе покивал головой.\n\n- Ну да, и в правду. Ну, я пожалуй поеду, у меня еще есть небольшие планы прежде чем мы сойдемся в отеле. Увидимся!\n\nОн пожал мне руку и отправился куда-то в сторону выхода. Это была странная встреча.\n\n[[Go to the airport exit]] ",
+      "links": [
+        {
+          "name": "Go to the airport exit",
+          "link": "Go to the airport exit",
+          "pid": "25"
+        }
+      ],
+      "name": "Убрать руку с плеча.",
+      "pid": "32",
+      "position": {
+        "x": "1300",
+        "y": "800"
+      }
+    },
+    {
+      "text": "- Спасибо\n\nНа этот раз получилось почти без акцента. Она села, и через пару минут перед ней поставили тарелку с её, по видимому, обедом. \n\n- Бон апетит - сказала она и принялась с явным аппетитом поедать свою порцию\n\n- Спасибо..  -  улыбнулся я и продолжил есть.\n\nКак ни удивительно, она не улыбнулась. У русских вообще частая проблема с улыбкой, как я успел заметить, пока катался туда. Бледно-голубые глаза холодно смотрели по сторонам, иногда на мгновение останавливаясь на мне.\n\n[[Что это за блюдо? Что-то из местной кухни?]] ",
+      "links": [
+        {
+          "name": "Что это за блюдо? Что-то из местной кухни?",
+          "link": "Что это за блюдо? Что-то из местной кухни?",
+          "pid": "36"
+        }
+      ],
+      "name": "Да, пожалуйста!",
+      "pid": "33",
+      "position": {
+        "x": "825",
+        "y": "1100"
+      }
+    },
+    {
+      "text": "Мой собеседник улыбнулся.\n\n- Я уверен, мы с Вами в два счета уделаем остальных участников. Ну и между собой договоримся, конечно.\n\nС этими словами он похлопал меня по плечу, и затем слегка отошел.\n\n- Мне пора, хочу заехать кое-куда до того, как мы все соберемся. Гхашуфак!\n\nОн помахал мне рукой и направился к выходу из аэропорта. А я подумал, что только что согласился на что-то рискованное.\n\n[[Go to the airport exit]] ",
+      "links": [
+        {
+          "name": "Go to the airport exit",
+          "link": "Go to the airport exit",
+          "pid": "25"
+        }
+      ],
+      "name": "И правда, наверное мы можем помочь друг другу...{{deal}}",
+      "pid": "34",
+      "position": {
+        "x": "1425",
+        "y": "700"
+      }
+    },
+    {
+      "text": "- А, да ты расчетливый малый, брат\n\nДарвиш улыбнулся во все зубы, и аккуратно отошел.\n\n- Ну если что, мы еще увидимся. Может, получится потом. Удачи!\n\nС этими словами он крепко пожал мне руку и отправился на выход. Я в свою очередь простоял рядом с банкоматом где -то пару минут, раздумывая, было ли это решение правильным.\n\n[[Go to the airport exit]] ",
+      "links": [
+        {
+          "name": "Go to the airport exit",
+          "link": "Go to the airport exit",
+          "pid": "25"
+        }
+      ],
+      "name": "Мм.. Простите. Слишком неожиданный риск. Я бы не хотел давать ответ прямо сейчас.",
+      "pid": "35",
+      "position": {
+        "x": "1425",
+        "y": "800"
+      }
+    },
+    {
+      "text": "- Я не уверена..\n\nЕе холодные глаза посмотрели прямо на меня.\n\n- Я просто выбрала то, что выглядело посытнее. А у Вас?\n\nЯ посмотрел на свою тарелку с оладьями\n\n- Кажется, это местный рецепт. Но очень сладкий.\n\nКажется, она немного улыбнулась. Я тоже улыбнулся в ответ, хотя не был уверен, что эта улыбка означает. Через несколько секунд я собрался с мыслями и продолжил есть:\n\n- А вы в Афинах по делу?\n\nОна снова улыбнулась.\n\n-Да, командировка от начальства...\n\nС этими словами она поскорее закончила свой обед, быстро выпила чай и встала из-за стола:\n\n- Спасибо за компанию. Может, увидимся снова\n\n- Все возможно - я снова улыбнулся -К слову, как Вас зовут?\n\n- Анна. Анна Тихомирова\n\n- Тихо... Мирова. Хорошо, я запомню. Моё имя Майлз Раннер, я тут буду где-то неделю.\n\n- Я тоже - она улыбнулась и протянула руку. Я аккуратно ее пожал, и затем отпустил.\n\nАнна отправилась куда-то в сторону, иногда смотря по сторонам, я некоторое время провожал ее взглядом.\n\n[[Go to the airport exit]] \n",
+      "links": [
+        {
+          "name": "Go to the airport exit",
+          "link": "Go to the airport exit",
+          "pid": "25"
+        }
+      ],
+      "name": "Что это за блюдо? Что-то из местной кухни?",
+      "pid": "36",
+      "position": {
+        "x": "950",
+        "y": "1100"
+      }
+    },
+    {
+      "text": "Выспаться получилось отлично, так что к вечеру я почти не опоздал. На мне была мятая рубашка и широкие штаны, так что я выглядел каким-то туристом. \n\nВ какой-то степени верно.\n\nВ ресторане было немноголюдно, я подошел к администратору, и она быстро провела меня к нужному столику.\n\nЗа столом уже сидели шестеро. Среди них я увидел близнецов Даблдэй, японец, очевидно, он и был Накамото Ишигами, о котором мне говорил Майкл. Кроме этого был Авигдор Яффе, senior-разработчик из Израиля, с которым я был знаком по докладам о создании компактных ИИ для умного дома.\n\n- Очень приятно с Вами познакомиться!..\n- Взаимно, мистер Раннер. Ваш доклад реверсивном раскрытии OLP-5 был мне крайне полезен!\n\nЭндрю Дарвиш, похоже, был знатным льстецом. Впрочем, наверное, они все такие.\n\nОбменявшись приветствиями я сел на своё место и стал ожидать оставшихся. Скоро должен был подойти Джоннатан Ли, куратор из CAR. Кажется, в планшете Майкла было написано, что этот Ли постоянно перемещается между странами?\n\nЛиндси Даблдэй, бойкая девушка, тут же вернулась к своему спору с Яффе.\n\n- Говорю Вам еще раз, эту задачу вполне реально решить меньшими ресурсами, надо просто развить в модели небольшой эвристический анализ угрозы. Мы так уже делали.\n\nМистер Яффе неуверенно качал головой.\n\n- Правительство, я уже слышал пробовало. Ничего не получилось. Да и мы все еще на ножах с соседями..\n\n[[{{deal}}Слегка подмигнуть Дарвишу]] \n[[Присоединиться к спору.]] ",
+      "links": [
+        {
+          "name": "{{deal}}Слегка подмигнуть Дарвишу",
+          "link": "{{deal}}Слегка подмигнуть Дарвишу",
+          "pid": "38"
+        },
+        {
+          "name": "Присоединиться к спору.",
+          "link": "Присоединиться к спору.",
+          "pid": "39"
+        }
+      ],
+      "name": "Вечер того же дня. Ресторан отеля.",
+      "pid": "37",
+      "position": {
+        "x": "1100",
+        "y": "925"
+      }
+    },
+    {
+      "text": "Он подмигнул в ответ. Очевидно, он довольно хорошо подготовился к приезду сюда. Майкл ничего про него не говорил, так что пока стоит думать, что он не знает, что здесь происходит. По крайней-мере пока.\n\nЯ посмотрел на остальных участников, атмосфера была довольно дружелюбной, мистер Яффе с интересом слушал идею Линдси Даблдэй о том, как ИИ может помочь с проблемой пустынных земель. Она сильно жестикулировала, яростно доказывая, что ее проект лишь выглядит сложным, а на деле пара десятков дронов смогут справиться с задачей контроля местности.\n\nЯ с удовольствием слушал эту лекцию, когда к столу подошли еще четверо человек.\n\n-Дамы и господа, спасибо что собрались здесь. Я Джоннатан Ли, и сейчас я расскажу все детали того, чем мы будем заниматься ближайшую неделю!\n\n[[Осмотреть группу новоприбывших]] ",
+      "links": [
+        {
+          "name": "Осмотреть группу новоприбывших",
+          "link": "Осмотреть группу новоприбывших",
+          "pid": "40"
+        }
+      ],
+      "name": "{{deal}}Слегка подмигнуть Дарвишу",
+      "pid": "38",
+      "position": {
+        "x": "1225",
+        "y": "900"
+      }
+    },
+    {
+      "text": "Я пододвинул стул чуть ближе к спорящим.\n\n- О чем идёт речь?\n\nЛиндси тут же переключила весь свой пыл на меня:\n\n- Да представляете, я уже минут двадцать объясняю этому дуболому, что проблема озеленения Израиля решается лет за пять, при наличии соответствующего ИИ, который будет контролировать озеленение.\n\n-Эй... - протестующе поднял руку Авигдор, но девушка тут же выставила ладонь перед ним\n\n- Да знаю я , соседи, Вы на ножах. Но даже так, можно придумать что-то, чтобы сделать страну лучше. Я ведь права, мистер Раннер?\n\n- Нууу... - я задумался - Я не очень понимаю в проблемах защиты дронов, если честно, но мне кажется компания AeroMach сделала новую модель роботов, которые способны перемещаться со скоростью в 2.5 раза быстрее скорости звука. И кроме этого, они должны прямо на борту поддерживать ИИ пятого поколения. Этого ведь должно хватить?\n\n- Да!! Вот видите! - она снова повернулась к мистеру Яффе - Сделать можно все что угодно, главное правильно адаптироваться к ситуации!\n\nЯффе явно был в замешательстве перед пылкостью девушки, которая сверлила его своими зелеными глазами.\n\nТем временем мы не заметили, как к столу подошло еще четыре человека, и один из них тихо хлопал в ладоши. \n\n- Моё почтение, мисс Даблдэй. Прямо рветесь в бой.\n\nХолодный, цепкий взгляд прошелся по всем, включая меня. По коже пробежали мурашки.\n\n- Я Джоннатан Ли, я менеджер по развитию новой игры от корпрорации CAR. Сегодня, дамы и господа, мы будем творить историю!\n\n[[Осмотреть группу новоприбывших]] ",
+      "links": [
+        {
+          "name": "Осмотреть группу новоприбывших",
+          "link": "Осмотреть группу новоприбывших",
+          "pid": "40"
+        }
+      ],
+      "name": "Присоединиться к спору.",
+      "pid": "39",
+      "position": {
+        "x": "1225",
+        "y": "1000"
+      }
+    },
+    {
+      "text": "Кроме самого мистера Ли, в подошедшей компании было видно трех мужчин и одну девушку. Судя по виду одного из них, он был с британских островов. Этот акцент ни с чем не спутаешь.\n\nОни начали здороваться с уже пришедшими. Британец вел себя со всеми вежливо, но слегка надменно, всем он представился как Райли. \n\nСледующим был мужчина с грубым голосом, который представился всем как Юрген. От его уверенного рукопожатия рука самую малость заболела.\n\nТретьим оказался индус по имени Аджитт Ачарья. он горячо поприветствовал всех, кто был в комнате, пожал всем руки и поцеловал ладони дамам. Линдси его бойкость явно пришлась по вкусу.\n\nНаконец, последней была девушка, которая представилась как Анна Тихомирова.\n\n[[{{meet}}Посмотреть на девушку]] \n[[Подождать, пока все рассядутся{{spy}}]] ",
+      "links": [
+        {
+          "name": "{{meet}}Посмотреть на девушку",
+          "link": "{{meet}}Посмотреть на девушку",
+          "pid": "41"
+        },
+        {
+          "name": "Подождать, пока все рассядутся{{spy}}",
+          "link": "Подождать, пока все рассядутся{{spy}}",
+          "pid": "42"
+        }
+      ],
+      "name": "Осмотреть группу новоприбывших",
+      "pid": "40",
+      "position": {
+        "x": "1375",
+        "y": "975"
+      }
+    },
+    {
+      "text": "\"Почему она здесь?\" - промелькнуло в голове.\n\nЯ посмотрел на собравшихся. Все имена я так или иначе слышал раньше. Все были заметные фигуры в мире создания ИИ, но она явно не подходила под эту категорию. Как она попала сюда?\n\nТем временем все расселись, и мистер Ли отвлёк моё внимание.\n\n- Итак, господа, дамы. - он распостёр руки широко, будто обнимая слушателей - Я рад, что вы все здесь собрались! Вы - лучшие из лучших в мире создания Искуственных Интеллектов, и мы искали Вас, чтобы сделать идеальную реализацию нашей новой игры - Красота битвы! Игровое подразделение CAR целых два года усердно разрабатывало новую адаптивную модель, которая позволит каждый раз удивлять игроков новыми сюрпризами. Мы проводили тестирование на каждом этапе, и на текущий момент игра практически готова.\n\nЮрген поднял руку:\n\n- Так если она готова, то зачем Вам мы? У игры ведь уже есть тестеры?\n\n- Отличный вопрос! Да, у игры были высококвалифицированные тестеры, и мы довели ИИ до почти идеального состояния. Но, мы хотим проверить, на что способна игра против лучших из лучших. Поэтому Вы и здесь - Ли широко улыбнулся, а затем сложил ладони будто в молитве - Я надеюсь, Вам всем понравится пребывание здесь, и понравится работа над нашим новым детищем. Если хотите задать какие-то вопросы, не стесняйтесь!  Первый тест начнется завтра утром.\n\n[[Может, проще было бы нанять побольше тестировщиков? Нанимать таких профессионалов дорого.]] \n[[Сколько всего будет этапов?]] \n[[Можете рассказать немного о самой игре?]] \n[[В чем будет заключаться наша задача?]] \n[[Есть какие-нибудь конкретные сценарии, которые Вас интересуют?]] \n[[Вопросы в голове закончились]] ",
+      "links": [
+        {
+          "name": "Может, проще было бы нанять побольше тестировщиков? Нанимать таких профессионалов дорого.",
+          "link": "Может, проще было бы нанять побольше тестировщиков? Нанимать таких профессионалов дорого.",
+          "pid": "45"
+        },
+        {
+          "name": "Сколько всего будет этапов?",
+          "link": "Сколько всего будет этапов?",
+          "pid": "43"
+        },
+        {
+          "name": "Можете рассказать немного о самой игре?",
+          "link": "Можете рассказать немного о самой игре?",
+          "pid": "44"
+        },
+        {
+          "name": "В чем будет заключаться наша задача?",
+          "link": "В чем будет заключаться наша задача?",
+          "pid": "46"
+        },
+        {
+          "name": "Есть какие-нибудь конкретные сценарии, которые Вас интересуют?",
+          "link": "Есть какие-нибудь конкретные сценарии, которые Вас интересуют?",
+          "pid": "47"
+        },
+        {
+          "name": "Вопросы в голове закончились",
+          "link": "Вопросы в голове закончились",
+          "pid": "48"
+        }
+      ],
+      "name": "{{meet}}Посмотреть на девушку",
+      "pid": "41",
+      "position": {
+        "x": "1525",
+        "y": "925"
+      }
+    },
+    {
+      "text": "Пока все рассаживались, я приметил неподалеку еще одного человека в легком пиджаке. Он старательно делал вид, что не смотрит в нашу сторону. Настолько старательно,что выглядит подозрительно.\n\nИли это я от своих друзей из ЦРУ подхватил паранойю по  любому поводу?\n\nТем временем все расселись, и мистер Ли отвлёк моё внимание.\n\n- Итак, господа, дамы. - он распостёр руки широко, будто обнимая слушателей - Я рад, что вы все здесь собрались! Вы - лучшие из лучших в мире создания Искуственных Интеллектов, и мы искали Вас, чтобы сделать идеальную реализацию нашей новой игры - Красота битвы! Игровое подразделение CAR целых два года усердно разрабатывало новую адаптивную модель, которая позволит каждый раз удивлять игроков новыми сюрпризами. Мы проводили тестирование на каждом этапе, и на текущий момент игра практически готова.\n\nЮрген поднял руку:\n\n- Так если она готова, то зачем Вам мы? У игры ведь уже есть тестеры?\n\n- Отличный вопрос! Да, у игры были высококвалифицированные тестеры, и мы довели ИИ до почти идеального состояния. Но, мы хотим проверить, на что способна игра против лучших из лучших. Поэтому Вы и здесь - Ли широко улыбнулся, а затем сложил ладони будто в молитве - Я надеюсь, Вам всем понравится пребывание здесь, и понравится работа над нашим новым детищем. Если хотите задать какие-то вопросы, не стесняйтесь!  Первый тест начнется завтра утром.\n\n[[Может, проще было бы нанять побольше тестировщиков? Нанимать таких профессионалов дорого.]] \n[[Сколько всего будет этапов?]] \n[[Можете рассказать немного о самой игре?]] \n[[В чем будет заключаться наша задача?]] \n[[Есть какие-нибудь конкретные сценарии, которые Вас интересуют?]] \n[[Вопросы в голове закончились]] ",
+      "links": [
+        {
+          "name": "Может, проще было бы нанять побольше тестировщиков? Нанимать таких профессионалов дорого.",
+          "link": "Может, проще было бы нанять побольше тестировщиков? Нанимать таких профессионалов дорого.",
+          "pid": "45"
+        },
+        {
+          "name": "Сколько всего будет этапов?",
+          "link": "Сколько всего будет этапов?",
+          "pid": "43"
+        },
+        {
+          "name": "Можете рассказать немного о самой игре?",
+          "link": "Можете рассказать немного о самой игре?",
+          "pid": "44"
+        },
+        {
+          "name": "В чем будет заключаться наша задача?",
+          "link": "В чем будет заключаться наша задача?",
+          "pid": "46"
+        },
+        {
+          "name": "Есть какие-нибудь конкретные сценарии, которые Вас интересуют?",
+          "link": "Есть какие-нибудь конкретные сценарии, которые Вас интересуют?",
+          "pid": "47"
+        },
+        {
+          "name": "Вопросы в голове закончились",
+          "link": "Вопросы в голове закончились",
+          "pid": "48"
+        }
+      ],
+      "name": "Подождать, пока все рассядутся{{spy}}",
+      "pid": "42",
+      "position": {
+        "x": "1525",
+        "y": "1025"
+      }
+    },
+    {
+      "text": "Райли Кэвилл нетерпеливо поднял руку:\n\n- А много вообще требуется проходить, уважаемый?\n\n- О, знаете, конкретно в Вашем случае их будет пять. Кажется мало, но на самом деле их будет гораздо больше, ИИ будет достраивать и перестраивать мир, как и в других играх наших игроделов.\n\n[[Может, проще было бы нанять побольше тестировщиков? Нанимать таких профессионалов дорого.]] \n[[Можете рассказать немного о самой игре?]] \n[[В чем будет заключаться наша задача?]] \n[[Есть какие-нибудь конкретные сценарии, которые Вас интересуют?]] \n[[Вопросы в голове закончились]] ",
+      "links": [
+        {
+          "name": "Может, проще было бы нанять побольше тестировщиков? Нанимать таких профессионалов дорого.",
+          "link": "Может, проще было бы нанять побольше тестировщиков? Нанимать таких профессионалов дорого.",
+          "pid": "45"
+        },
+        {
+          "name": "Можете рассказать немного о самой игре?",
+          "link": "Можете рассказать немного о самой игре?",
+          "pid": "44"
+        },
+        {
+          "name": "В чем будет заключаться наша задача?",
+          "link": "В чем будет заключаться наша задача?",
+          "pid": "46"
+        },
+        {
+          "name": "Есть какие-нибудь конкретные сценарии, которые Вас интересуют?",
+          "link": "Есть какие-нибудь конкретные сценарии, которые Вас интересуют?",
+          "pid": "47"
+        },
+        {
+          "name": "Вопросы в голове закончились",
+          "link": "Вопросы в голове закончились",
+          "pid": "48"
+        }
+      ],
+      "name": "Сколько всего будет этапов?",
+      "pid": "43",
+      "position": {
+        "x": "1700",
+        "y": "925"
+      }
+    },
+    {
+      "text": "Мистер Ли улыбнулся:\n\n- Знаете, проще один раз увидеть это в режиме глубокого погружения. Но я скажу Вам, что игра имеет черты как современного, так и чего-то очень древнего. Например... Хм, нет, это все же лучше увидеть. Но поверьте, вид Вас не разочарует!\n\n[[Может, проще было бы нанять побольше тестировщиков? Нанимать таких профессионалов дорого.]] \n[[Сколько всего будет этапов?]] \n[[В чем будет заключаться наша задача?]] \n[[Есть какие-нибудь конкретные сценарии, которые Вас интересуют?]] \n[[Вопросы в голове закончились]] ",
+      "links": [
+        {
+          "name": "Может, проще было бы нанять побольше тестировщиков? Нанимать таких профессионалов дорого.",
+          "link": "Может, проще было бы нанять побольше тестировщиков? Нанимать таких профессионалов дорого.",
+          "pid": "45"
+        },
+        {
+          "name": "Сколько всего будет этапов?",
+          "link": "Сколько всего будет этапов?",
+          "pid": "43"
+        },
+        {
+          "name": "В чем будет заключаться наша задача?",
+          "link": "В чем будет заключаться наша задача?",
+          "pid": "46"
+        },
+        {
+          "name": "Есть какие-нибудь конкретные сценарии, которые Вас интересуют?",
+          "link": "Есть какие-нибудь конкретные сценарии, которые Вас интересуют?",
+          "pid": "47"
+        },
+        {
+          "name": "Вопросы в голове закончились",
+          "link": "Вопросы в голове закончились",
+          "pid": "48"
+        }
+      ],
+      "name": "Можете рассказать немного о самой игре?",
+      "pid": "44",
+      "position": {
+        "x": "1800",
+        "y": "825"
+      }
+    },
+    {
+      "text": "Я поднял руку:\n\n- Игру ведь наверняка тестировали до, и сейчас тестируют тоже. Может, надо было нанять побольше сотрудников?\n\n- У игры уже было большое количество тетсировщиков, и они уже не справляются с тем, на что способен ИИ без всяких ограничений. Поэтому нам нужны люди с по-настоящему нестандартным подходом. Чуть ли не гении.\n\nСказав это, Джонатанн позволил себе легкую усмешку:\n\n- Конечно, это проект с долгоидущими последствиями в индустрии. Поэтому мы готовы заплатить за лучших, чтобы получить лучшее.\n\n[[Сколько всего будет этапов?]] \n[[Можете рассказать немного о самой игре?]] \n[[В чем будет заключаться наша задача?]] \n[[Есть какие-нибудь конкретные сценарии, которые Вас интересуют?]] \n[[Вопросы в голове закончились]] ",
+      "links": [
+        {
+          "name": "Сколько всего будет этапов?",
+          "link": "Сколько всего будет этапов?",
+          "pid": "43"
+        },
+        {
+          "name": "Можете рассказать немного о самой игре?",
+          "link": "Можете рассказать немного о самой игре?",
+          "pid": "44"
+        },
+        {
+          "name": "В чем будет заключаться наша задача?",
+          "link": "В чем будет заключаться наша задача?",
+          "pid": "46"
+        },
+        {
+          "name": "Есть какие-нибудь конкретные сценарии, которые Вас интересуют?",
+          "link": "Есть какие-нибудь конкретные сценарии, которые Вас интересуют?",
+          "pid": "47"
+        },
+        {
+          "name": "Вопросы в голове закончились",
+          "link": "Вопросы в голове закончились",
+          "pid": "48"
+        }
+      ],
+      "name": "Может, проще было бы нанять побольше тестировщиков? Нанимать таких профессионалов дорого.",
+      "pid": "45",
+      "position": {
+        "x": "1700",
+        "y": "825"
+      }
+    },
+    {
+      "text": "Прежде, чем я успел что-то сказать, руку подняла сестра Даблдэй:\n\n-  А что нам собственно делать надо-то? Сеть наверняка прошла не один цикл разработки!\n\n- То же, что делают и все остальные игроки. Пройти игру. Естественно, это не будет так просто, особенно в конце. Но вы ведь привыкли к трудностям, не так ли?\n\nЯ даже больше скажу, все прошедшие получат полмиллиона долларов, или его эквивалент в любой удобной валюте, так что у Вас еще больше мотивации пройти её, не так ли?\n\nЛиндси возражать было нечего, речь мистера Ли была складной.\n\n[[Может, проще было бы нанять побольше тестировщиков? Нанимать таких профессионалов дорого.]] \n[[Сколько всего будет этапов?]] \n[[Можете рассказать немного о самой игре?]] \n[[Есть какие-нибудь конкретные сценарии, которые Вас интересуют?]] \n[[Вопросы в голове закончились]] ",
+      "links": [
+        {
+          "name": "Может, проще было бы нанять побольше тестировщиков? Нанимать таких профессионалов дорого.",
+          "link": "Может, проще было бы нанять побольше тестировщиков? Нанимать таких профессионалов дорого.",
+          "pid": "45"
+        },
+        {
+          "name": "Сколько всего будет этапов?",
+          "link": "Сколько всего будет этапов?",
+          "pid": "43"
+        },
+        {
+          "name": "Можете рассказать немного о самой игре?",
+          "link": "Можете рассказать немного о самой игре?",
+          "pid": "44"
+        },
+        {
+          "name": "Есть какие-нибудь конкретные сценарии, которые Вас интересуют?",
+          "link": "Есть какие-нибудь конкретные сценарии, которые Вас интересуют?",
+          "pid": "47"
+        },
+        {
+          "name": "Вопросы в голове закончились",
+          "link": "Вопросы в голове закончились",
+          "pid": "48"
+        }
+      ],
+      "name": "В чем будет заключаться наша задача?",
+      "pid": "46",
+      "position": {
+        "x": "1800",
+        "y": "925"
+      }
+    },
+    {
+      "text": "На этот раз руку поднял Юрген:\n\n- А мы получим какие-либо инструкции, или нам нужно придумывать все заново?\n\nМистер Ли улыбнулся:\n\n- Знаете, наверное по этому поводу Вам гораздо больше рассказали бы разработчики ИИ, но насколько я понял их объяснения, их просто интересует, как Вы придете к решению той или иной задачи. Возможно, так они ищут недостатки в своей модели.\n\nСовременный подход к разработке не позволяет ограничиваться только написанными тестами.\n\nВ ответ на это Юрген кивнул, и опустил руку.\n\n[[Может, проще было бы нанять побольше тестировщиков? Нанимать таких профессионалов дорого.]] \n[[Сколько всего будет этапов?]] \n[[Можете рассказать немного о самой игре?]] \n[[В чем будет заключаться наша задача?]] \n[[Вопросы в голове закончились]] ",
+      "links": [
+        {
+          "name": "Может, проще было бы нанять побольше тестировщиков? Нанимать таких профессионалов дорого.",
+          "link": "Может, проще было бы нанять побольше тестировщиков? Нанимать таких профессионалов дорого.",
+          "pid": "45"
+        },
+        {
+          "name": "Сколько всего будет этапов?",
+          "link": "Сколько всего будет этапов?",
+          "pid": "43"
+        },
+        {
+          "name": "Можете рассказать немного о самой игре?",
+          "link": "Можете рассказать немного о самой игре?",
+          "pid": "44"
+        },
+        {
+          "name": "В чем будет заключаться наша задача?",
+          "link": "В чем будет заключаться наша задача?",
+          "pid": "46"
+        },
+        {
+          "name": "Вопросы в голове закончились",
+          "link": "Вопросы в голове закончились",
+          "pid": "48"
+        }
+      ],
+      "name": "Есть какие-нибудь конкретные сценарии, которые Вас интересуют?",
+      "pid": "47",
+      "position": {
+        "x": "1750",
+        "y": "1025"
+      }
+    },
+    {
+      "text": "На несколько мгновений в ресторане разразилась тишина, лишь немного нарушаемая мягкой приятной мелодией.\n\nМистер Ли понял, что это конец всех вопросов, он слегка развел руки в стороны и торжественно произнес:\n\n- Ну, раз это все вопросы на сегодня, наслаждайтесь прекрасной греческой кухней. Очень рад, что Вы откликнулись на наше приглашение!\n\nДа, еще один момент. Завтра в девять я прошу всех ждать меня в вестибюле, нас уже будет ждать машина, которая отвезет нас прямо в офис. Приятного аппетита и хорошего вечера!\n\nГорячо распрощавшись со всеми Ли ушел, и атмосфера стала почти праздничной. Мисс Даблдэй тут снова вступила в уже почти забытый спор, Ишигами и Кевилл тут же зарылись в механики очередного хардкорного файтинга, а Эндрю и Юрген всерьез засели за дискуссию о развитии криптографии в нынешних условиях.\n\nОстальные, и я в том числе, в той или иной мере, просто слушали и наслаждались вечером.\n\n[[Вступить в разговор за ужином{{friends}}]] \n[[{{spy}}Доесть, и отправиться в номер.]] ",
+      "links": [
+        {
+          "name": "Вступить в разговор за ужином{{friends}}",
+          "link": "Вступить в разговор за ужином{{friends}}",
+          "pid": "49"
+        },
+        {
+          "name": "{{spy}}Доесть, и отправиться в номер.",
+          "link": "{{spy}}Доесть, и отправиться в номер.",
+          "pid": "50"
+        }
+      ],
+      "name": "Вопросы в голове закончились",
+      "pid": "48",
+      "position": {
+        "x": "1750",
+        "y": "1125"
+      }
+    },
+    {
+      "text": "Больше всего мне была близка тема криптографии, так как я и сам был своего рода инженером безопасности.\n\nС этой мыслью я пододвинулся поближе к Эндрю.\n\n- Эвристический анализ алгоритма не панацея. Уже есть устойчивые к квантовому шифрованию ключи, и даже ключи предыдущего поколения были достаточно сложны, чтобы их дешифровать...\n\nЯ присоединился к этому разговору, вставив, что уже видел ИИ который способен провернуть такой трюк меньше чем за неделю. Мистер Хорн понимающе покивал головой, ИИ-аналитики уже продвинулись достаточно далеко в своём развитии, чтобы выигрывать как минимум за счет скорости обработки данных.\n\nЧерез три часа мы втроем были вымотаны физически, но не морально, довольные разговором. К этому времени уже каждый из нас начал разбредаться по своим номерам, и я решил поступить так же.\n\nНа моём этаже царила приятная прохлада, и я чуть оставил окно приоткрытым. На редкость приятный вечер.\n\n[[Зайти в номер, снять с себя одежду и упасть без сил]] ",
+      "links": [
+        {
+          "name": "Зайти в номер, снять с себя одежду и упасть без сил",
+          "link": "Зайти в номер, снять с себя одежду и упасть без сил",
+          "pid": "51"
+        }
+      ],
+      "name": "Вступить в разговор за ужином{{friends}}",
+      "pid": "49",
+      "position": {
+        "x": "2000",
+        "y": "900"
+      }
+    },
+    {
+      "text": "Почему-то настроения участвовать во всех этих спорах желания не было, так что я быстро доел, вежливо попрощался с каждым, и затем отправился к себе. \n\nЧто-то было не так во всем этом.\n\nИ это опасение тут же подтвердилось.\n\nНа этаже снова стоял тот непонятный мужчина из ресторана. Он явно не был в команде отеля. Но если так, то как он попал сюда, и зачем здесь ошивается?\n\n[[Попробовать заговорить с загадочным человеком]] \n[[Сделать вид, что не заметил, и отправиться в свою комнату{{watchdog}}]] ",
+      "links": [
+        {
+          "name": "Попробовать заговорить с загадочным человеком",
+          "link": "Попробовать заговорить с загадочным человеком",
+          "pid": "52"
+        },
+        {
+          "name": "Сделать вид, что не заметил, и отправиться в свою комнату{{watchdog}}",
+          "link": "Сделать вид, что не заметил, и отправиться в свою комнату{{watchdog}}",
+          "pid": "53"
+        }
+      ],
+      "name": "{{spy}}Доесть, и отправиться в номер.",
+      "pid": "50",
+      "position": {
+        "x": "2000",
+        "y": "1000"
+      }
+    },
+    {
+      "text": "Что ни говори, а день был полон тяжелых моментов. Ребята конечно приятные, и с ними есть о чем поговорить, но все равно мысль о том, что здесь может происходить что-то нехорошее напрягало.\n\nЛучше бы Майкл ошибся.\n\nЯ немного приоткрыл шторы и окно. На небе была полная луна. Она освещала город, и море, у которого он раскинулся. Зрелище было потрясающим.\n\n\"А ведь в полнолуние на охоту выходят оборотни, согласно сказаниям\" - подумал я, а затем сам же усмехнулся этой мысли.\n\nОборотни не были реальны. Сказания древних времен всегда преувеличивали реальную опасность. И наверное сейчас это делал и я.\n\nСкинув с себя всю одежду я укутался в белоснежное одеяло, мягко пахнущее лавандой, и быстро погрузился в сон.\n\nЗавтра начнется настоящая работа...\n\n[[Первый день, первое испытание]] ",
+      "links": [
+        {
+          "name": "Первый день, первое испытание",
+          "link": "Первый день, первое испытание",
+          "pid": "54"
+        }
+      ],
+      "name": "Зайти в номер, снять с себя одежду и упасть без сил",
+      "pid": "51",
+      "position": {
+        "x": "2400",
+        "y": "850"
+      }
+    },
+    {
+      "text": "Попытаться стоит.\n\nЯ попробовал подойти к мужчине, но прежде, чем я что-то успел сказать, легкий пиджак завернул за угол в другой коридор. \n\nПоколебавшись, я все же пошел следом, но, дойдя до перекрестка в коридоре, не увидел ни единого намёка на то, что здесь кто-то был.\n\nМожет быть это была реально паранойя?\n\n[[Зайти в номер, снять с себя одежду и упасть без сил]] ",
+      "links": [
+        {
+          "name": "Зайти в номер, снять с себя одежду и упасть без сил",
+          "link": "Зайти в номер, снять с себя одежду и упасть без сил",
+          "pid": "51"
+        }
+      ],
+      "name": "Попробовать заговорить с загадочным человеком",
+      "pid": "52",
+      "position": {
+        "x": "2200",
+        "y": "950"
+      }
+    },
+    {
+      "text": "Проверим.\n\nЯ посмотрел на свою дверь и идя лишь чуть медленнее обычного, краем глаза наблюдал за визитёром.\n\n\"Попался!...\"\n\nЭто точно была слежка. Знакомство с принципами работы агентов все же дало о себе знать. Стоило дать понять мужчине, что на него не обращают внимания, внимательный взгляд тут же вцепился в меня.\n\nНеприятный холодок пробежал по спине, но я сделал все, чтобы не подать виду.\n\nПохоже, я уже на крючке. Либо мы все, на крючке. Вопрос только - зачем?\n\n[[Зайти в номер, снять с себя одежду и упасть без сил]] ",
+      "links": [
+        {
+          "name": "Зайти в номер, снять с себя одежду и упасть без сил",
+          "link": "Зайти в номер, снять с себя одежду и упасть без сил",
+          "pid": "51"
+        }
+      ],
+      "name": "Сделать вид, что не заметил, и отправиться в свою комнату{{watchdog}}",
+      "pid": "53",
+      "position": {
+        "x": "2200",
+        "y": "1100"
+      }
+    },
+    {
+      "text": "Я открыл глаза. Реальность внутри реальности, если так можно это назвать.\n\nРовно в девять мы все сели на автобус, за полчаса добрались до главного офиса CAR, и вот мы сидим в лежачих креслах, подключенные к Hi-End нейрошлемам.\n\nМы, вдесятером, стояли в достаточно узком, но длинном коридоре. Сам коридор был закрыт железной решеткой. Архаичненько.\n\n- Ну что, все готовы к приключениям?! - радостно заорала Линдси. Кое-кто поддержал ее энтузиазм легкой усмешкой, а кто-то наоборот, пристально сосредосточился на том, что впереди.\n\nСреди них был и я.\n\n[[-Светлолицая воительница...]] ",
+      "links": [
+        {
+          "name": "-Светлолицая воительница...",
+          "link": "-Светлолицая воительница...",
+          "pid": "55"
+        }
+      ],
+      "name": "Первый день, первое испытание",
+      "pid": "54",
+      "position": {
+        "x": "600",
+        "y": "1500"
+      }
+    },
+    {
+      "text": "У решетки стояла девушка со светлой, почти белой кожей, холодными карими глазами и высоким греческим носом. Ее упрямые губы были сжаты, а подбородок гордо поднят.\n\nТело было укрыто голубым платьем, оттенком ближе к синему. На ее кистях были серебряные наручи, а в руках - ручной пулемет.\n\n- Приветствую, войны. - ее голос был не очень громким, но при этом очень четким и уверенным - это Вы жаждете бросить вызов богам?\n\nОчевидно, нужно согласиться.\n\nЯ быстро сделал шаг вперед:\n\n- Да, я желаю бросить вызов!\n\n- И я! - весело крикнула Линдси.\n\n- И мы тоже - спокойно сказали Юрген и Эндрю Даблдэй.\n\nЕе лицо не изменилось. Она поочередно осмотрела всех присутствующих и прикрыла глаза:\n\n- Да будет так. Идите вперед, и покажите, что можете подняться до небес.\n\nС этими словами решетка поднялась над нами, и мы вдесятером отправились вперед, к свету.\n\nА воительница сказала нам вслед:\n\n- И помните, Вы бросаете вызов своим собственным силам\n\n[[Великая арена]] ",
+      "links": [
+        {
+          "name": "Великая арена",
+          "link": "Великая арена",
+          "pid": "56"
+        }
+      ],
+      "name": "-Светлолицая воительница...",
+      "pid": "55",
+      "position": {
+        "x": "725",
+        "y": "1500"
+      }
+    },
+    {
+      "text": "Пройдя коридор где-то за полминуты, в глаза ударил яркий солнечный свет. Я зажмурил глаза, мне ударил в ноздри приятный соленый запах.\n\nМорской бриз.\n\nКак только глаза привыкли, я невольно вздохнул. Перед нами был берег моря. По бокам от нас расстилались трибуны без конца и без края, а в небе...\n\n- Мне одному кажется, что разрабынемного перебрали с размахом?  -  медленно протянул Райли Кэвилл.\n\nПеред нами открылась башня до небес. Платформа, огромная как само море, простиралось над ним, медленно вращаясь, и луч света ударялся куда то в гладь моря.\n\n[[Осмотреться в поисках лодки]] \n[[У кого-нибудь есть идеи, что делать?{{rival}}]] ",
+      "links": [
+        {
+          "name": "Осмотреться в поисках лодки",
+          "link": "Осмотреться в поисках лодки",
+          "pid": "57"
+        },
+        {
+          "name": "У кого-нибудь есть идеи, что делать?{{rival}}",
+          "link": "У кого-нибудь есть идеи, что делать?{{rival}}",
+          "pid": "58"
+        }
+      ],
+      "name": "Великая арена",
+      "pid": "56",
+      "position": {
+        "x": "850",
+        "y": "1500"
+      }
+    },
+    {
+      "text": "- Похоже, нам нужно добраться туда\n\nСказав это, я заметил длинный причал с десятью катерами на причале. Наш билет на следующий уровень.\n\nРванув вперед всех, я за несколько секунд до ближайшего катера и запрыгнул в рубку. Это был бронированный военный катер. На нём стояло несколько турелей с тяжелыми пулемётами, глубинные бомбы, пара торпед... \n\nЕсли это все нужно для игры, то с чем придется сражаться?\n\n[[Ключ на старт]] ",
+      "links": [
+        {
+          "name": "Ключ на старт",
+          "link": "Ключ на старт",
+          "pid": "59"
+        }
+      ],
+      "name": "Осмотреться в поисках лодки",
+      "pid": "57",
+      "position": {
+        "x": "975",
+        "y": "1450"
+      }
+    },
+    {
+      "text": "- А по моему все очевидно! Нам просто нужно добраться до того столба света, а там разберемся что делать.\n\nКэвилл рванул куда-то к берегу. Неожиданно я осознал, что здесь был причал и к нему было пришвартовано десять катеров, каждый для одного.\n\nМы все побежали туда. Ни в коем случае не хотелось проигрывать этому излишне прыткому парнишке. Может он  и был игроком, но уж точно не был разработчиком. И зачем он CAR сдался?\n\nВзбежав на борт первой свободной лодки, я запрыгнул в кабину.\n\n[[Ключ на старт]] ",
+      "links": [
+        {
+          "name": "Ключ на старт",
+          "link": "Ключ на старт",
+          "pid": "59"
+        }
+      ],
+      "name": "У кого-нибудь есть идеи, что делать?{{rival}}",
+      "pid": "58",
+      "position": {
+        "x": "975",
+        "y": "1550"
+      }
+    },
+    {
+      "text": "Нет времени думать. Чем быстрее разберусь с этим, тем быстрее пойму, что происходит.\n\nМотор резко взвыл на высоких оборотах, я дал задний ход, и тут же дал руля вправо, резко наклоняясь на борт.\n\nНужно скорее оторваться от остальных.\n\n[[Надеть AR-очки]] ",
+      "links": [
+        {
+          "name": "Надеть AR-очки",
+          "link": "Надеть AR-очки",
+          "pid": "60"
+        }
+      ],
+      "name": "Ключ на старт",
+      "pid": "59",
+      "position": {
+        "x": "1100",
+        "y": "1500"
+      }
+    },
+    {
+      "text": "Лодка была напичкана электроникой, чем я и воспользовался.\n\nСлева в специальном креплении лежали очки дополненной реальности, которые я нацепил на себя.\n\nСтены кабины стали почти прозрачными, и тут же появился боевой интерфейс.\n\nИнициализация\nПулеметные турели..готовы\nГлубинные бомбы..готовы\nТорпедные аппараты 1 и 2 .. готовы\nГарпун..готов\nСонар..активен\n\nСразу после этого я осмотрелся по сторонам. Никого вокруг не было. Я ведь не мог настолько оторваться..\n\nВнезапно справа появился красный экран:\nТест начат. Выберите ограничители!\n\nОграничение реакции\nОграничение по количеству боеприпасов\nОграничение по скорости хода\nОграничение по прочности бура\nГлубинные бомбы\n\nВыберите один, который следует исключить.\n\n[[Исключить ограничение реакции]] \n[[Исключить ограничение по скорости хода]] \n[[Исключить ограничение по боеприпасам]] \n[[Исключить подводные мины]] \n[[Снять ограничение на прочность бура]] ",
+      "links": [
+        {
+          "name": "Исключить ограничение реакции",
+          "link": "Исключить ограничение реакции",
+          "pid": "61"
+        },
+        {
+          "name": "Исключить ограничение по скорости хода",
+          "link": "Исключить ограничение по скорости хода",
+          "pid": "62"
+        },
+        {
+          "name": "Исключить ограничение по боеприпасам",
+          "link": "Исключить ограничение по боеприпасам",
+          "pid": "63"
+        },
+        {
+          "name": "Исключить подводные мины",
+          "link": "Исключить подводные мины",
+          "pid": "64"
+        },
+        {
+          "name": "Снять ограничение на прочность бура",
+          "link": "Снять ограничение на прочность бура",
+          "pid": "65"
+        }
+      ],
+      "name": "Надеть AR-очки",
+      "pid": "60",
+      "position": {
+        "x": "1225",
+        "y": "1500"
+      }
+    },
+    {
+      "text": "- Скорее всего, это ограничение для боевого интеллекта...\n\nЕсли бы цель была его протестировать, я бы начал с этого. Но, раз уж надо побыстрее пройти, то пусть сражается на полную!\n\nВыбрав ненужный ограничитель, я переключился на сонар и дав медленный ход приготовился внимательно слушать...",
+      "name": "Исключить ограничение реакции",
+      "pid": "61",
+      "position": {
+        "x": "1350",
+        "y": "1350"
+      }
+    },
+    {
+      "text": "- Маневр правит морем, но если тест затянется, то я не успею вперед всех.\n\nСняв ограничитель, я переключился на сонар и начал зигзагообразно приближаться к источнику света, который и был точкой назначения.",
+      "name": "Исключить ограничение по скорости хода",
+      "pid": "62",
+      "position": {
+        "x": "1350",
+        "y": "1550"
+      }
+    },
+    {
+      "text": "- Вообще, даже если боеприпасы ограничены, это не значит, что их совсем нет..\n\nРассуждая так, я решил убрать ограничение по боеприпасам, понадеявшись, что что бы меня не ждало, патроны  имеют привычку заканчиваться.\n\nПодтвердив выбор и переключившись на сонар, я дал быстрый ход, и поехал вперед, надеясь обнаружить то, что искал, раньше, чем оно найдет меня.",
+      "name": "Исключить ограничение по боеприпасам",
+      "pid": "63",
+      "position": {
+        "x": "1350",
+        "y": "1450"
+      }
+    },
+    {
+      "text": "- Мины? А может сразу расстреляете меня из крупнокалиберной артиллерии??\n\nЯ мало знал о кораблях, но мины звучали слишком опасно, чтобы оставлять их в море. Поэтому я решил их убрать.\n\nПодтвердив выбор, я переключился на пулемёты и дал полный ход чуть в сторону от света.",
+      "name": "Исключить подводные мины",
+      "pid": "64",
+      "position": {
+        "x": "1350",
+        "y": "1650"
+      }
+    },
+    {
+      "text": "- Хмм... Без понятия, что такое бур, но близко я к себе никого не подпущу!\n\nВыключив это ограничение, я присмотрелся в столбу света с помощью увеличения. Он бил в небольшой песчаный остров. Похоже, туда мне и нужно.\n\nВключив двигатели в полмощности, я направился прямиком туда, в любой момент ожидая атаки.",
+      "name": "Снять ограничение на прочность бура",
+      "pid": "65",
+      "position": {
+        "x": "1350",
+        "y": "1750"
+      }
+    }
+  ],
+  "name": "Pallada Project ENG",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.4.1",
+  "ifid": "8a533ce1-3bd8-488c-a0ab-b7902b470121"
+}

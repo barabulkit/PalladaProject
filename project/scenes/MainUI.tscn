@@ -69,6 +69,7 @@ margin_right = 609.0
 margin_bottom = 19.0
 
 [node name="Popup" parent="." instance=ExtResource( 5 )]
+visible = false
 margin_left = 62.0
 margin_top = 81.0
 margin_right = -62.0
@@ -78,4 +79,5 @@ margin_bottom = -68.0
 [connection signal="gui_input" from="SettingsButton" to="." method="_on_SettingsButton_gui_input"]
 [connection signal="pressed" from="SettingsButton" to="." method="_on_SettingsButton_pressed"]
 [connection signal="gui_input" from="ScrollContainer2" to="." method="_on_PalladaProject_gui_input"]
+[connection signal="language_changed" from="Popup" to="." method="_on_Popup_language_changed"]
 [connection signal="speed_changed" from="Popup" to="." method="_on_Popup_speed_changed"]
