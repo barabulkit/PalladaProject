@@ -11,7 +11,10 @@ signal language_changed
 var internal_speed
 var internal_language
 onready var slider = $HSlider
-onready var dropdown = $OptionButton
+onready var dropdown = $HBoxContainer/OptionButton
+onready var langLabel = $HBoxContainer/LanguageLabel
+onready var speedLabel = $SpeedDrawLabel
+onready var acceptButton = $AcceptButton
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -25,11 +28,20 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
 #	pass
-
+func updateLang(language):
+	if language == "English":
+		langLabel.text = "Language"
+		speedLabel.text = "Text draw speed"
+		acceptButton.text = "Accept"
+	else:
+		langLabel.text = "Язык"
+		speedLabel.text = "Скорость прорисовки текста"
+		acceptButton.text = "Принять"
 
 func _on_Button_pressed():
 	settings_var.draw_coef = internal_speed
 	settings_var.language = internal_language
+	updateLang(internal_language)
 	emit_signal("speed_changed")
 	emit_signal("language_changed")
 	hide()
