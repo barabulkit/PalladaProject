@@ -1,8 +1,8 @@
 [gd_scene load_steps=7 format=2]
 
-[ext_resource path="res://assets/ui.png" type="Texture" id=1]
+[ext_resource path="res://assets/newui.png" type="Texture" id=1]
 [ext_resource path="res://assets/settings.png" type="Texture" id=2]
-[ext_resource path="res://assets/exit.png" type="Texture" id=3]
+[ext_resource path="res://assets/info.png" type="Texture" id=3]
 [ext_resource path="res://scripts/parseStory.gd" type="Script" id=4]
 [ext_resource path="res://scenes/Settings.tscn" type="PackedScene" id=5]
 [ext_resource path="res://scenes/RobotoLabel.tscn" type="PackedScene" id=6]
@@ -43,20 +43,20 @@ __meta__ = {
 [node name="ScrollContainer" type="ScrollContainer" parent="."]
 anchor_left = 0.0322266
 anchor_top = 0.685
-anchor_right = 0.626953
+anchor_right = 0.969727
 anchor_bottom = 0.945
 __meta__ = {
 "_edit_use_anchors_": true
 }
 
 [node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer"]
-margin_right = 609.0
+margin_right = 960.0
 size_flags_horizontal = 3
 
 [node name="ScrollContainer2" type="ScrollContainer" parent="."]
 anchor_left = 0.0322266
-anchor_top = 0.0583333
-anchor_right = 0.626953
+anchor_top = 0.101667
+anchor_right = 0.96875
 anchor_bottom = 0.651667
 __meta__ = {
 "_edit_use_anchors_": true
@@ -64,9 +64,7 @@ __meta__ = {
 
 [node name="MainStoryText" parent="ScrollContainer2" instance=ExtResource( 6 )]
 anchor_right = 0.0
-anchor_bottom = 0.0
-margin_right = 609.0
-margin_bottom = 19.0
+margin_right = 959.0
 
 [node name="Popup" parent="." instance=ExtResource( 5 )]
 margin_left = 62.0
