@@ -17,12 +17,10 @@ var currentStream
 var currentTween
 
 # Called when the node enters the scene tree for the first time.
-func _ready():
-	vyperStream._set_playing(true)
-	vyperTween.interpolate_property(vyperStream, "volume_db", vyperStream.volume_db, -10, 3, Tween.TRANS_QUART, Tween.EASE_OUT)
-	vyperTween.start()
+func _ready():	
 	currentTween = vyperTween
 	currentStream = vyperStream
+	enableSound()
 
 func SetCurrentAudio(audio):
 	if not currentAudio == audio:
@@ -99,3 +97,12 @@ func _on_HeadacheTween_tween_completed(object, key):
 func _on_EnoughTween_tween_completed(object, key):
 	if enoughStream.volume_db == -40:
 		enoughStream._set_playing(false)
+
+func disableSound():
+	currentStream._set_playing(false)
+	currentTween.stop_all()
+
+func enableSound():
+	currentStream._set_playing(true)
+	currentTween.interpolate_property(currentStream, "volume_db", currentStream.volume_db, -10, 3, Tween.TRANS_QUART, Tween.EASE_OUT)
+	currentTween.start()

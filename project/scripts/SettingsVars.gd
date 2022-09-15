@@ -7,6 +7,7 @@ extends Node
 
 var draw_coef = 50.0
 var language 
+var disableSound = false
 
 # Called when the node enters the scene tree for the first time.
 func _ready():

@@ -77,7 +77,6 @@ margin_bottom = -68.0
 [node name="AudioController" parent="." instance=ExtResource( 7 )]
 
 [node name="TitlesPopup" parent="." instance=ExtResource( 8 )]
-visible = false
 anchor_left = 0.181641
 anchor_top = 0.123333
 anchor_right = 0.868164
@@ -92,4 +91,5 @@ __meta__ = {
 [connection signal="pressed" from="InfoButton" to="." method="_on_InfoButton_pressed"]
 [connection signal="gui_input" from="ScrollContainer2" to="." method="_on_PalladaProject_gui_input"]
 [connection signal="language_changed" from="Popup" to="." method="_on_Popup_language_changed"]
+[connection signal="sound_state_changed" from="Popup" to="." method="_on_Popup_sound_state_changed"]
 [connection signal="speed_changed" from="Popup" to="." method="_on_Popup_speed_changed"]

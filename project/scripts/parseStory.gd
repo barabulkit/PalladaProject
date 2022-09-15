@@ -164,9 +164,13 @@ func _on_Popup_language_changed():
 	clear_links()
 	process_links()
 	set_mainstory_text()
-	pass # Replace with function body.
 
 
 func _on_InfoButton_pressed():
 	titles.popup_centered()
-	pass # Replace with function body.
+
+func _on_Popup_sound_state_changed():
+	if settings_var.disableSound == true:
+		audioController.disableSound()
+	else:
+		audioController.enableSound()

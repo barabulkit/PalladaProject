@@ -8,12 +8,15 @@ extends Control
 var settings_var
 signal speed_changed
 signal language_changed
+signal sound_state_changed
 var internal_speed
 var internal_language
+var disableSound = false
 onready var slider = $HSlider
 onready var dropdown = $HBoxContainer/OptionButton
 onready var langLabel = $HBoxContainer/LanguageLabel
 onready var speedLabel = $SpeedDrawLabel
+onready var disableSoundLabel = $HBoxContainer2/DisableSoundLabel
 onready var acceptButton = $AcceptButton
 
 # Called when the node enters the scene tree for the first time.
@@ -33,17 +36,24 @@ func updateLang(language):
 		langLabel.text = "Language"
 		speedLabel.text = "Text draw speed"
 		acceptButton.text = "Accept"
+		disableSound.text = "Disable sound"
 	else:
 		langLabel.text = "Язык"
 		speedLabel.text = "Скорость прорисовки текста"
 		acceptButton.text = "Принять"
+		disableSound.text = "Отключить звук"
 
 func _on_Button_pressed():
-	settings_var.draw_coef = internal_speed
-	settings_var.language = internal_language
-	updateLang(internal_language)
-	emit_signal("speed_changed")
-	emit_signal("language_changed")
+	if settings_var.draw_coef != internal_speed:
+		settings_var.draw_coef = internal_speed
+		emit_signal("speed_changed")
+	if settings_var.language != internal_language:
+		settings_var.language = internal_language
+		updateLang(internal_language)
+		emit_signal("language_changed")
+	if settings_var.disableSound != disableSound:
+		settings_var.disableSound = disableSound
+		emit_signal("sound_state_changed")
 	hide()
 
 
@@ -53,4 +63,10 @@ func _on_HSlider_value_changed(value):
 
 func _on_OptionButton_item_selected(index):
 	internal_language = dropdown.get_item_text(index)
+	pass # Replace with function body.
+
+
+func _on_DisableSoundCheckBox_toggled(button_pressed):
+	print(button_pressed)
+	disableSound = button_pressed
 	pass # Replace with function body.
