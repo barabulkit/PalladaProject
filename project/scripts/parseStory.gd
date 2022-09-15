@@ -115,8 +115,13 @@ func checkPassageForMusicChange(passage):
 		audioController.SetCurrentAudio("candy")
 	if passage == 36:
 		audioController.SetCurrentAudio("goodbye")
-	if passage == 58:
+	if passage == 58 or passage == 114:
 		audioController.SetCurrentAudio("enough")
+	if passage == 93 or passage == 94:
+		audioController.SetCurrentAudio("goodbye")
+	if passage == 124 or passage == 127:
+		audioController.SetCurrentAudio("headache")
+		
 
 func process_draw_speed(delta):
 	if mainStoryLabel.percent_visible != 1:
