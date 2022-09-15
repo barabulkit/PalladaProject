@@ -26,6 +26,7 @@ font_data = ExtResource( 4 )
 font_data = ExtResource( 4 )
 
 [node name="Popup" type="Popup"]
+visible = true
 anchor_right = 1.0
 anchor_bottom = 1.0
 script = ExtResource( 3 )
@@ -54,7 +55,7 @@ __meta__ = {
 anchor_bottom = 1.0
 margin_left = 38.0
 margin_top = 92.0
-margin_right = 317.0
+margin_right = 977.0
 margin_bottom = -468.0
 
 [node name="LanguageLabel" type="Label" parent="HBoxContainer"]
@@ -77,7 +78,7 @@ __meta__ = {
 [node name="HBoxContainer2" type="HBoxContainer" parent="."]
 anchor_left = 0.0351563
 anchor_top = 0.288333
-anchor_right = 0.351563
+anchor_right = 0.960938
 anchor_bottom = 0.355
 __meta__ = {
 "_edit_use_anchors_": true
@@ -98,7 +99,7 @@ margin_bottom = 40.0
 [node name="HBoxContainer3" type="HBoxContainer" parent="."]
 anchor_left = 0.0341797
 anchor_top = 0.0716667
-anchor_right = 0.554688
+anchor_right = 0.955078
 anchor_bottom = 0.138333
 __meta__ = {
 "_edit_use_anchors_": true
@@ -113,7 +114,6 @@ text = "Text draw speed"
 
 [node name="HSlider" type="HSlider" parent="HBoxContainer3"]
 margin_left = 120.0
-margin_top = 10.0
 margin_right = 320.0
 margin_bottom = 16.0
 rect_min_size = Vector2( 200, 0 )
