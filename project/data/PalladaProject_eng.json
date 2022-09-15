@@ -1942,7 +1942,7 @@
       }
     },
     {
-      "text": "7 July 203X\n\nGrand Electra Hotel\n\nYesterday we passed the second arena, and we all gathered together to celebrate this in a restaurant.\n\n- Honestly, I don't understand why they needed us .. - Jurgen rubbed his chin thoughtfully. - The AI doesn't look too advanced.\n\n- So we were told that he works under restrictions, didn't he? - Mr. Acharya thoughtfully said, winding pasta on his fork - After all, we do not have to confront the AI in its full force. Will he be better than us?\n\n\n[[{{deal}} Look at Darvish and slightly nod your head to the side, inviting you to move away]]\n[[- А мне показалось, что он вёл себя странно.]]\n",
+      "text": "7 July 203X\n\nGrand Electra Hotel\n\nYesterday we passed the second arena, and we all gathered together to celebrate this in a restaurant.\n\n- Honestly, I don't understand why they needed us .. - Jurgen rubbed his chin thoughtfully. - The AI doesn't look too advanced.\n\n- So we were told that he works under restrictions, didn't he? - Mr. Acharya thoughtfully said, winding pasta on his fork - After all, we do not have to confront the AI in its full force. Will he be better than us?\n\n\n[[{{deal}} Look at Darvish and slightly nod your head to the side, inviting you to move away]]\n[[- I thought he was acting weird.]]\n",
       "links": [
         {
           "name": "{{deal}} Look at Darvish and slightly nod your head to the side, inviting you to move away",
@@ -1950,8 +1950,8 @@
           "pid": "99"
         },
         {
-          "name": "- А мне показалось, что он вёл себя странно.",
-          "link": "- А мне показалось, что он вёл себя странно.",
+          "name": "- I thought he was acting weird.",
+          "link": "- I thought he was acting weird.",
           "pid": "100"
         }
       ],
@@ -2002,7 +2002,7 @@
           "pid": "102"
         }
       ],
-      "name": "- А мне показалось, что он вёл себя странно.",
+      "name": "- I thought he was acting weird.",
       "pid": "100",
       "position": {
         "x": "725",
