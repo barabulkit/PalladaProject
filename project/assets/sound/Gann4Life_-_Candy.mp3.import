@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Gann4Life_-_Candy.mp3-0806b4a0a88c248d0c2109bcb3938232.mp3str"
+
+[deps]
+
+source_file="res://assets/sound/Gann4Life_-_Candy.mp3"
+dest_files=[ "res://.import/Gann4Life_-_Candy.mp3-0806b4a0a88c248d0c2109bcb3938232.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/I_dont_have_enough_time_today_demo.mp3-aaf09ec1644285176335a60d5229922e.mp3str"
+
+[deps]
+
+source_file="res://assets/sound/I_dont_have_enough_time_today_demo.mp3"
+dest_files=[ "res://.import/I_dont_have_enough_time_today_demo.mp3-aaf09ec1644285176335a60d5229922e.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

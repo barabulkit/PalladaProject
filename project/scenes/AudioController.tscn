@@ -1,0 +1,47 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://assets/sound/Vyper - Gann4Life (Audius).mp3" type="AudioStream" id=1]
+[ext_resource path="res://AudioController.gd" type="Script" id=2]
+[ext_resource path="res://assets/sound/Gann4Life_-_Candy.mp3" type="AudioStream" id=3]
+[ext_resource path="res://assets/sound/Goodbye.mp3" type="AudioStream" id=4]
+[ext_resource path="res://assets/sound/Gann4Life_-_Headache.mp3" type="AudioStream" id=5]
+[ext_resource path="res://assets/sound/I_dont_have_enough_time_today_demo.mp3" type="AudioStream" id=6]
+
+[node name="AudioController" type="Node"]
+script = ExtResource( 2 )
+
+[node name="Vyper" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 1 )
+volume_db = -40.0
+
+[node name="VyperTween" type="Tween" parent="Vyper"]
+
+[node name="Candy" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )
+volume_db = -40.0
+
+[node name="CandyTween" type="Tween" parent="Candy"]
+
+[node name="Goodbye" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 4 )
+volume_db = -40.0
+
+[node name="GoodbyeTween" type="Tween" parent="Goodbye"]
+
+[node name="Headache" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 5 )
+volume_db = -40.0
+
+[node name="HeadacheTween" type="Tween" parent="Headache"]
+
+[node name="Enough" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 6 )
+volume_db = -40.0
+
+[node name="EnoughTween" type="Tween" parent="Enough"]
+
+[connection signal="tween_completed" from="Vyper/VyperTween" to="." method="_on_VyperTween_tween_completed"]
+[connection signal="tween_completed" from="Candy/CandyTween" to="." method="_on_CandyTween_tween_completed"]
+[connection signal="tween_completed" from="Goodbye/GoodbyeTween" to="." method="_on_GoodbyeTween_tween_completed"]
+[connection signal="tween_completed" from="Headache/HeadacheTween" to="." method="_on_HeadacheTween_tween_completed"]
+[connection signal="tween_completed" from="Enough/EnoughTween" to="." method="_on_EnoughTween_tween_completed"]

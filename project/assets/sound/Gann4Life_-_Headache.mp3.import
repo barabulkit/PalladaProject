@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Gann4Life_-_Headache.mp3-8e92e0eea340a5da2c10bdab9de95de7.mp3str"
+
+[deps]
+
+source_file="res://assets/sound/Gann4Life_-_Headache.mp3"
+dest_files=[ "res://.import/Gann4Life_-_Headache.mp3-8e92e0eea340a5da2c10bdab9de95de7.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

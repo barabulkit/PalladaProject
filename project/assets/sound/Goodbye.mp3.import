@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Goodbye.mp3-95a876f76f5beb0aac495bb31c48852f.mp3str"
+
+[deps]
+
+source_file="res://assets/sound/Goodbye.mp3"
+dest_files=[ "res://.import/Goodbye.mp3-95a876f76f5beb0aac495bb31c48852f.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

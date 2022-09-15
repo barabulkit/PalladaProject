@@ -12,6 +12,7 @@ var currentLabel
 var conditions : Array
 
 onready var settingsMenu = $Popup
+onready var audioController = $AudioController
 
 var text_draw_speed
 var settings_var
@@ -98,6 +99,7 @@ func _on_Gui(event, linkPassage):
 		if "trigger" in linkPassage:
 			conditions.append(linkPassage.trigger)
 		currentPassage = int(linkPassage.pid) - 1
+		checkPassageForMusicChange(currentPassage)
 		set_mainstory_text()
 		clear_links()
 		process_links()
@@ -106,6 +108,14 @@ func _on_Gui(event, linkPassage):
 func _process(delta):
 	process_draw_speed(delta)
 
+
+func checkPassageForMusicChange(passage):
+	if passage == 21:
+		audioController.SetCurrentAudio("candy")
+	if passage == 36:
+		audioController.SetCurrentAudio("goodbye")
+	if passage == 58:
+		audioController.SetCurrentAudio("enough")
 
 func process_draw_speed(delta):
 	if mainStoryLabel.percent_visible != 1:

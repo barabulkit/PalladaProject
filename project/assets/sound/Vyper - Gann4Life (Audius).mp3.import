@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Vyper - Gann4Life (Audius).mp3-bf46180ed8168afc18d8d71131a12cd0.mp3str"
+
+[deps]
+
+source_file="res://assets/sound/Vyper - Gann4Life (Audius).mp3"
+dest_files=[ "res://.import/Vyper - Gann4Life (Audius).mp3-bf46180ed8168afc18d8d71131a12cd0.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
