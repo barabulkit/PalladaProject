@@ -12,6 +12,7 @@ var currentLabel
 var conditions : Array
 
 onready var settingsMenu = $Popup
+onready var titles = $TitlesPopup
 onready var audioController = $AudioController
 
 var text_draw_speed
@@ -163,4 +164,9 @@ func _on_Popup_language_changed():
 	clear_links()
 	process_links()
 	set_mainstory_text()
+	pass # Replace with function body.
+
+
+func _on_InfoButton_pressed():
+	titles.popup_centered()
 	pass # Replace with function body.
