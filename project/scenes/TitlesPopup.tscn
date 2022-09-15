@@ -24,7 +24,6 @@ font_data = ExtResource( 2 )
 font_data = ExtResource( 2 )
 
 [node name="TitlesPopup" type="Popup"]
-visible = true
 anchor_right = 1.0
 anchor_bottom = 1.0
 script = ExtResource( 4 )
@@ -130,7 +129,7 @@ __meta__ = {
 "_edit_use_anchors_": true
 }
 
-[connection signal="meta_clicked" from="ScrollContainer/VBoxContainer/DariaLabel" to="." method="_on_DariaLabel_meta_clicked"]
+[connection signal="meta_clicked" from="ScrollContainer/VBoxContainer/DariaLabel" to="." method="_on_Label_meta_clicked"]
 [connection signal="meta_clicked" from="ScrollContainer/VBoxContainer/SergeyLabel" to="." method="_on_Label_meta_clicked"]
 [connection signal="meta_clicked" from="ScrollContainer/VBoxContainer/GannLabel" to="." method="_on_Label_meta_clicked"]
 [connection signal="meta_clicked" from="ScrollContainer/VBoxContainer/MeLabel" to="." method="_on_Label_meta_clicked"]
