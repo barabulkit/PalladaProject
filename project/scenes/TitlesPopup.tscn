@@ -5,13 +5,13 @@
 [ext_resource path="res://assets/settings_borders2.png" type="Texture" id=3]
 [ext_resource path="res://scenes/TitlesPopup.gd" type="Script" id=4]
 
-[sub_resource type="DynamicFont" id=1]
-font_data = ExtResource( 2 )
-
 [sub_resource type="DynamicFont" id=2]
 font_data = ExtResource( 2 )
 
 [sub_resource type="DynamicFont" id=3]
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=6]
 font_data = ExtResource( 2 )
 
 [sub_resource type="DynamicFont" id=4]
@@ -20,7 +20,7 @@ font_data = ExtResource( 2 )
 [sub_resource type="DynamicFont" id=5]
 font_data = ExtResource( 2 )
 
-[sub_resource type="DynamicFont" id=6]
+[sub_resource type="DynamicFont" id=1]
 font_data = ExtResource( 2 )
 
 [node name="TitlesPopup" type="Popup"]
@@ -48,39 +48,40 @@ margin_right = 969.0
 margin_bottom = 184.0
 size_flags_horizontal = 3
 
-[node name="TranslatorLabel" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 1 )]
-anchor_right = 0.0
-margin_right = 968.0
-text = "Translation"
-align = 1
-
-[node name="DariaLabel" type="RichTextLabel" parent="ScrollContainer/VBoxContainer"]
-margin_top = 23.0
-margin_right = 968.0
-margin_bottom = 43.0
-custom_fonts/normal_font = SubResource( 1 )
-bbcode_enabled = true
-bbcode_text = "[center][url=https://t.me/frsksea]Daria Efimova[/url][/center]"
-text = "Daria Efimova"
-fit_content_height = true
-
 [node name="Main Story" type="Label" parent="ScrollContainer/VBoxContainer"]
-margin_top = 47.0
 margin_right = 968.0
-margin_bottom = 66.0
+margin_bottom = 19.0
 custom_fonts/font = SubResource( 2 )
 text = "Main Story"
 align = 1
 valign = 1
 
 [node name="SergeyLabel" type="RichTextLabel" parent="ScrollContainer/VBoxContainer"]
-margin_top = 70.0
+margin_top = 23.0
 margin_right = 968.0
-margin_bottom = 90.0
+margin_bottom = 43.0
 custom_fonts/normal_font = SubResource( 3 )
 bbcode_enabled = true
 bbcode_text = "[center]Sergey [url=https://polar-phoenix.itch.io/]\"Polar Phoenix\"[/url] Tkachev[/center]"
 text = "Sergey \"Polar Phoenix\" Tkachev"
+fit_content_height = true
+
+[node name="ProgrammerLabel" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 1 )]
+anchor_right = 0.0
+margin_top = 47.0
+margin_right = 968.0
+margin_bottom = 66.0
+text = "UI & Game programming"
+align = 1
+
+[node name="MeLabel" type="RichTextLabel" parent="ScrollContainer/VBoxContainer"]
+margin_top = 70.0
+margin_right = 968.0
+margin_bottom = 90.0
+custom_fonts/normal_font = SubResource( 6 )
+bbcode_enabled = true
+bbcode_text = "[center]Denis Solodyankin aka [url=https://github.com/barabulkit]barabulkit[/url][/center]"
+text = "Denis Solodyankin aka barabulkit"
 fit_content_height = true
 
 [node name="MusicLabel" type="Label" parent="ScrollContainer/VBoxContainer"]
@@ -101,22 +102,22 @@ bbcode_text = "[center]Santiago Ariel Mansilla aka [url=https://audius.co/Gann4L
 text = "Santiago Ariel Mansilla aka Gann4Life"
 fit_content_height = true
 
-[node name="ProgrammerLabel" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 1 )]
+[node name="TranslatorLabel" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 1 )]
 anchor_right = 0.0
 margin_top = 141.0
 margin_right = 968.0
 margin_bottom = 160.0
-text = "UI & Game programming"
+text = "Translation"
 align = 1
 
-[node name="MeLabel" type="RichTextLabel" parent="ScrollContainer/VBoxContainer"]
+[node name="DariaLabel" type="RichTextLabel" parent="ScrollContainer/VBoxContainer"]
 margin_top = 164.0
 margin_right = 968.0
 margin_bottom = 184.0
-custom_fonts/normal_font = SubResource( 6 )
+custom_fonts/normal_font = SubResource( 1 )
 bbcode_enabled = true
-bbcode_text = "[center]Denis Solodyankin aka [url=https://github.com/barabulkit]barabulkit[/url][/center]"
-text = "Denis Solodyankin aka barabulkit"
+bbcode_text = "[center][url=https://t.me/frsksea]Daria Efimova[/url][/center]"
+text = "Daria Efimova"
 fit_content_height = true
 
 [node name="Button" type="Button" parent="."]
@@ -129,8 +130,8 @@ __meta__ = {
 "_edit_use_anchors_": true
 }
 
-[connection signal="meta_clicked" from="ScrollContainer/VBoxContainer/DariaLabel" to="." method="_on_Label_meta_clicked"]
 [connection signal="meta_clicked" from="ScrollContainer/VBoxContainer/SergeyLabel" to="." method="_on_Label_meta_clicked"]
-[connection signal="meta_clicked" from="ScrollContainer/VBoxContainer/GannLabel" to="." method="_on_Label_meta_clicked"]
 [connection signal="meta_clicked" from="ScrollContainer/VBoxContainer/MeLabel" to="." method="_on_Label_meta_clicked"]
+[connection signal="meta_clicked" from="ScrollContainer/VBoxContainer/GannLabel" to="." method="_on_Label_meta_clicked"]
+[connection signal="meta_clicked" from="ScrollContainer/VBoxContainer/DariaLabel" to="." method="_on_Label_meta_clicked"]
 [connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]

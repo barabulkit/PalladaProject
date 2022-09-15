@@ -12,10 +12,10 @@ signal sound_state_changed
 var internal_speed
 var internal_language
 var disableSound = false
-onready var slider = $HSlider
+onready var slider = $HBoxContainer3/HSlider
 onready var dropdown = $HBoxContainer/OptionButton
 onready var langLabel = $HBoxContainer/LanguageLabel
-onready var speedLabel = $SpeedDrawLabel
+onready var speedLabel = $HBoxContainer3/TextSpeedLabel
 onready var disableSoundLabel = $HBoxContainer2/DisableSoundLabel
 onready var acceptButton = $AcceptButton
 
@@ -24,8 +24,8 @@ func _ready():
 	settings_var = get_node("/root/SettingsVars")
 	internal_speed = settings_var.draw_coef
 	slider.value = settings_var.draw_coef
-	dropdown.add_item("Русский")
 	dropdown.add_item("English")
+	dropdown.add_item("Русский")
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -36,12 +36,12 @@ func updateLang(language):
 		langLabel.text = "Language"
 		speedLabel.text = "Text draw speed"
 		acceptButton.text = "Accept"
-		disableSound.text = "Disable sound"
+		disableSoundLabel.text = "Disable sound"
 	else:
 		langLabel.text = "Язык"
 		speedLabel.text = "Скорость прорисовки текста"
 		acceptButton.text = "Принять"
-		disableSound.text = "Отключить звук"
+		disableSoundLabel.text = "Отключить звук"
 
 func _on_Button_pressed():
 	if settings_var.draw_coef != internal_speed:

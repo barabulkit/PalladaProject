@@ -69,6 +69,7 @@ anchor_right = 0.0
 margin_right = 959.0
 
 [node name="Popup" parent="." instance=ExtResource( 5 )]
+visible = false
 margin_left = 62.0
 margin_top = 81.0
 margin_right = -62.0
@@ -77,6 +78,7 @@ margin_bottom = -68.0
 [node name="AudioController" parent="." instance=ExtResource( 7 )]
 
 [node name="TitlesPopup" parent="." instance=ExtResource( 8 )]
+visible = false
 anchor_left = 0.181641
 anchor_top = 0.123333
 anchor_right = 0.868164

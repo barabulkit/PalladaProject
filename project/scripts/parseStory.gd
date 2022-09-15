@@ -20,7 +20,7 @@ var settings_var
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	load_story("res://data/PalladaProject.json")
+	load_story("res://data/PalladaProject_eng.json")
 
 	mainStoryLabel = get_node("ScrollContainer2/MainStoryText")
 	
