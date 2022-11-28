@@ -15,6 +15,8 @@ onready var settingsMenu = $Popup
 onready var titles = $TitlesPopup
 onready var audioController = $AudioController
 
+onready var cheatsPopup = $CheatsPopup
+
 var text_draw_speed
 var settings_var
 
@@ -139,6 +141,12 @@ func process_draw_speed(delta):
 func _on_PalladaProject_gui_input(event):
 	if (event is InputEventMouseButton && event.pressed && event.button_index == 1):
 		process_percent_visible()
+
+func _input(event):
+	if(event is InputEventKey):
+		if(event.scancode == KEY_QUOTELEFT):
+			cheatsPopup.popup_centered()
+		
 		
 func process_percent_visible():
 	if mainStoryLabel.percent_visible != 1:
