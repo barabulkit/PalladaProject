@@ -130,12 +130,12 @@ func process_draw_speed(delta):
 		mainStoryLabel.percent_visible += text_draw_speed * delta
 	if not linkLabels.empty():
 		if mainStoryLabel.percent_visible == 1:
-			text_draw_speed = settings_var.draw_coef / linkLabels[currentLabel].text.length()
+			text_draw_speed = linkLabels[currentLabel].text.length()
 		if mainStoryLabel.percent_visible == 1 and linkLabels[currentLabel].percent_visible != 1:
 			linkLabels[currentLabel].percent_visible += text_draw_speed * delta
 		if linkLabels[currentLabel].percent_visible == 1 and currentLabel != linkLabels.size() - 1:
 			currentLabel += 1
-			text_draw_speed = settings_var.draw_coef / linkLabels[currentLabel].text.length()
+			text_draw_speed = linkLabels[currentLabel].text.length()
 
 
 func _on_PalladaProject_gui_input(event):
