@@ -5,7 +5,7 @@ extends Node
 # var a = 2
 # var b = "text"
 
-var draw_coef = 50.0
+var draw_coef = 80.0
 var language 
 var disableSound = false
 
