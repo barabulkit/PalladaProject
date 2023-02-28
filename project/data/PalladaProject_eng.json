@@ -19,7 +19,7 @@
           "pid": "4"
         }
       ],
-      "name": "Начало",
+      "name": "<<test2>>Начало",
       "pid": "1",
       "position": {
         "x": "600",
@@ -44,7 +44,7 @@
           "pid": "6"
         }
       ],
-      "name": "Fuck you, Michael. Your office owes me a couple of zeros in the contract..",
+      "name": "<<inplane2>>Fuck you, Michael. Your office owes me a couple of zeros in the contract..",
       "pid": "2",
       "position": {
         "x": "725",

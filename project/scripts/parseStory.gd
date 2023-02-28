@@ -14,10 +14,13 @@ var conditions : Array
 onready var settingsMenu = $Popup
 onready var titles = $TitlesPopup
 onready var audioController = $AudioController
+onready var oldStoryImage = $OldStoryImage
+onready var newStoryImage = $NewStoryImage
 
 onready var cheatsPopup = $CheatsPopup
 
 var text_draw_speed
+var image_draw_speed = 0.5
 var settings_var
 
 # Called when the node enters the scene tree for the first time.
@@ -44,6 +47,19 @@ func load_story(filename):
 	data = data_parse.result
 
 func set_mainstory_text():
+	var regex = RegEx.new()
+	regex.compile("<<(.*?)>>")
+	var img = regex.search(data.passages[currentPassage].name)
+	if img != null:
+		var img_path = "res://assets/" + img.get_string().replace('<', '').replace('>', '') + ".png"
+		var textureImage = Image.new()
+		textureImage.load(img_path)
+		var texture = ImageTexture.new()
+		texture.create_from_image(textureImage)
+		oldStoryImage.texture = newStoryImage.texture
+		newStoryImage.modulate.a = 0
+		newStoryImage.texture = load(img_path)
+		#image.draw_texture(texture, Vector2(0,0))
 	mainStoryLabel.text = data.passages[currentPassage].text.split("[")[0]
 	mainStoryLabel.percent_visible = 0
 	if mainStoryLabel.text.length() != 0:
@@ -136,6 +152,11 @@ func process_draw_speed(delta):
 		if linkLabels[currentLabel].percent_visible == 1 and currentLabel != linkLabels.size() - 1:
 			currentLabel += 1
 			text_draw_speed = linkLabels[currentLabel].text.length()
+			
+	if newStoryImage.modulate.a < 1:
+		newStoryImage.modulate.a += image_draw_speed * delta
+	if oldStoryImage.modulate.a > 0:
+		oldStoryImage.modulate.a -= image_draw_speed * delta
 
 
 func _on_PalladaProject_gui_input(event):
