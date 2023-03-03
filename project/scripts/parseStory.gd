@@ -57,7 +57,7 @@ func set_mainstory_text():
 		var texture = ImageTexture.new()
 		texture.create_from_image(textureImage)
 		oldStoryImage.texture = newStoryImage.texture
-		newStoryImage.modulate.a = 0
+		newStoryImage.modulate.a = 0.5
 		newStoryImage.texture = load(img_path)
 		#image.draw_texture(texture, Vector2(0,0))
 	mainStoryLabel.text = data.passages[currentPassage].text.split("[")[0]
